@@ -1,6 +1,8 @@
 # NotifiAZ
 
 > **Reportable disease reporting that takes 4 minutes, not 60. Complete on first submission. Multi-agency in one click. Bidirectional.**
+>
+> ** This project Started with a complex model that trys to solve multiple PH problems at a go, found here: [EVALUATION_NOTE.md](EVALUATION_NOTE.md). After my instructor's review I narrowed down to just one PH problem-solution that I named NotifiAZ (NotifiArizona) **
 
 [![Status](https://img.shields.io/badge/status-capstone--MVP-blue)]() [![Data](https://img.shields.io/badge/data-100%25%20synthetic-green)]() [![Reproducibility](https://img.shields.io/badge/seed-42-orange)]() [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)](LICENSE)
 
