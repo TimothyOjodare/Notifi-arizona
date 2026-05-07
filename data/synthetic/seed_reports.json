@@ -1,0 +1,445 @@
+[
+  {
+    "report_id": "R-1ddccf2d",
+    "reporter_id": "dr-reyes",
+    "subject_id": "P-e6697833",
+    "subject_kind": "human",
+    "disease_id": "valley_fever",
+    "submitted_at": "2026-05-06T08:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-DCAE6E9FB3",
+        "submitted_at": "2026-05-06T08:00:00",
+        "state": "submitted"
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-39A40DFE61",
+        "submitted_at": "2026-05-06T08:00:00",
+        "state": "submitted"
+      }
+    ]
+  },
+  {
+    "report_id": "R-ab8755c5",
+    "reporter_id": "dr-reyes",
+    "subject_id": "P-f7294951",
+    "subject_kind": "human",
+    "disease_id": "salmonellosis",
+    "submitted_at": "2026-05-06T05:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-C64235EB28",
+        "submitted_at": "2026-05-06T05:00:00",
+        "state": "submitted"
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-4D90437BFD",
+        "submitted_at": "2026-05-06T05:00:00",
+        "state": "submitted"
+      },
+      {
+        "destination_id": "county_maricopa",
+        "ack_id": "ACK-974B975360",
+        "submitted_at": "2026-05-06T05:00:00",
+        "state": "submitted"
+      }
+    ]
+  },
+  {
+    "report_id": "R-183982d2",
+    "reporter_id": "dr-reyes",
+    "subject_id": "P-79e13cea",
+    "subject_kind": "human",
+    "disease_id": "pertussis",
+    "submitted_at": "2026-05-06T09:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-D76E0B6F56",
+        "submitted_at": "2026-05-06T09:00:00",
+        "state": "submitted"
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-1CACAD0B28",
+        "submitted_at": "2026-05-06T09:00:00",
+        "state": "submitted"
+      }
+    ]
+  },
+  {
+    "report_id": "R-18873255",
+    "reporter_id": "dr-reyes",
+    "subject_id": "P-fb16e5db",
+    "subject_kind": "human",
+    "disease_id": "rmsf",
+    "submitted_at": "2026-05-06T10:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-F1702CDE1B",
+        "submitted_at": "2026-05-06T10:00:00",
+        "state": "submitted"
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-4A2A3E41F8",
+        "submitted_at": "2026-05-06T10:00:00",
+        "state": "submitted"
+      }
+    ]
+  },
+  {
+    "report_id": "R-d1139b9a",
+    "reporter_id": "dr-patel",
+    "subject_id": "P-6fac1673",
+    "subject_kind": "human",
+    "disease_id": "measles",
+    "submitted_at": "2026-05-04T07:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-3047A45230",
+        "submitted_at": "2026-05-04T07:00:00",
+        "state": "received",
+        "received_at": "2026-05-04T07:10:00",
+        "received_by": "agency_intake_system"
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-C6CCAC693F",
+        "submitted_at": "2026-05-04T07:00:00",
+        "state": "received",
+        "received_at": "2026-05-04T07:05:00",
+        "received_by": "agency_intake_system"
+      }
+    ]
+  },
+  {
+    "report_id": "R-8a602252",
+    "reporter_id": "dr-patel",
+    "subject_id": "P-3d959e3f",
+    "subject_kind": "human",
+    "disease_id": "syphilis",
+    "submitted_at": "2026-05-04T04:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-BD15349C09",
+        "submitted_at": "2026-05-04T04:00:00",
+        "state": "received",
+        "received_at": "2026-05-04T04:47:00",
+        "received_by": "agency_intake_system"
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-A7483D73D8",
+        "submitted_at": "2026-05-04T04:00:00",
+        "state": "received",
+        "received_at": "2026-05-04T04:53:00",
+        "received_by": "agency_intake_system"
+      },
+      {
+        "destination_id": "county_maricopa",
+        "ack_id": "ACK-788B78BDD4",
+        "submitted_at": "2026-05-04T04:00:00",
+        "state": "received",
+        "received_at": "2026-05-04T04:42:00",
+        "received_by": "agency_intake_system"
+      }
+    ]
+  },
+  {
+    "report_id": "R-39202108",
+    "reporter_id": "dr-patel",
+    "subject_id": "P-fa34d2e8",
+    "subject_kind": "human",
+    "disease_id": "gonorrhea",
+    "submitted_at": "2026-05-04T12:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-FE56B1E574",
+        "submitted_at": "2026-05-04T12:00:00",
+        "state": "received",
+        "received_at": "2026-05-04T12:52:00",
+        "received_by": "agency_intake_system"
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-588D6282FE",
+        "submitted_at": "2026-05-04T12:00:00",
+        "state": "received",
+        "received_at": "2026-05-04T12:41:00",
+        "received_by": "agency_intake_system"
+      },
+      {
+        "destination_id": "county_pima",
+        "ack_id": "ACK-BCD448CED6",
+        "submitted_at": "2026-05-04T12:00:00",
+        "state": "received",
+        "received_at": "2026-05-04T12:04:00",
+        "received_by": "agency_intake_system"
+      }
+    ]
+  },
+  {
+    "report_id": "R-5c66c458",
+    "reporter_id": "dr-okafor",
+    "subject_id": "P-e6697833",
+    "subject_kind": "human",
+    "disease_id": "valley_fever",
+    "submitted_at": "2026-05-03T14:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-A5940E139A",
+        "submitted_at": "2026-05-03T14:00:00",
+        "state": "callback_pending",
+        "received_at": "2026-05-03T14:37:00",
+        "received_by": "agency_intake_system",
+        "callback": {
+          "question": "Can you confirm patient's specific occupational soil-dust exposure timing? We're tracking a Pinal County cluster and need a 14-day exposure window.",
+          "sent_by": "investigator",
+          "sent_at": "2026-05-04T09:00:00"
+        }
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-5B4F3F2CF1",
+        "submitted_at": "2026-05-03T14:00:00",
+        "state": "received",
+        "received_at": "2026-05-03T14:38:00",
+        "received_by": "agency_intake_system"
+      }
+    ]
+  },
+  {
+    "report_id": "R-2486d632",
+    "reporter_id": "dr-okafor",
+    "subject_id": "P-30cbd755",
+    "subject_kind": "human",
+    "disease_id": "tb_active",
+    "submitted_at": "2026-05-03T09:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-9B52763639",
+        "submitted_at": "2026-05-03T09:00:00",
+        "state": "callback_pending",
+        "received_at": "2026-05-03T09:47:00",
+        "received_by": "agency_intake_system",
+        "callback": {
+          "question": "Confirm contact-tracing list submitted to ADHS TB program. We need NEXUS-format contact list.",
+          "sent_by": "investigator",
+          "sent_at": "2026-05-03T12:00:00"
+        }
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-0C488695C2",
+        "submitted_at": "2026-05-03T09:00:00",
+        "state": "received",
+        "received_at": "2026-05-03T09:45:00",
+        "received_by": "agency_intake_system"
+      }
+    ]
+  },
+  {
+    "report_id": "R-86113d33",
+    "reporter_id": "dr-rodriguez",
+    "subject_id": "P-5f18e583",
+    "subject_kind": "human",
+    "disease_id": "hantavirus",
+    "submitted_at": "2026-05-02T12:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-D5E6ECE5BC",
+        "submitted_at": "2026-05-02T12:00:00",
+        "state": "reply_received",
+        "received_at": "2026-05-02T12:02:00",
+        "received_by": "agency_intake_system",
+        "callback": {
+          "question": "Confirm rodent-exposure location and any other people who shared the cabin.",
+          "sent_by": "investigator",
+          "sent_at": "2026-05-02T16:00:00",
+          "reply": "Confirmed: patient reports yard-work soil-dust exposure 7 days prior to onset; no recent travel; no household contacts symptomatic at this time.",
+          "replied_by": "clinician",
+          "replied_at": "2026-05-02T20:00:00"
+        }
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-EBC9D0834B",
+        "submitted_at": "2026-05-02T12:00:00",
+        "state": "received",
+        "received_at": "2026-05-02T12:43:00",
+        "received_by": "agency_intake_system"
+      },
+      {
+        "destination_id": "county_maricopa",
+        "ack_id": "ACK-01B9A9D213",
+        "submitted_at": "2026-05-02T12:00:00",
+        "state": "received",
+        "received_at": "2026-05-02T12:29:00",
+        "received_by": "agency_intake_system"
+      }
+    ]
+  },
+  {
+    "report_id": "R-7cd6b3d5",
+    "reporter_id": "dr-nguyen",
+    "subject_id": "P-bf780e3f",
+    "subject_kind": "human",
+    "disease_id": "salmonellosis",
+    "submitted_at": "2026-04-26T04:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-D733291EDB",
+        "submitted_at": "2026-04-26T04:00:00",
+        "state": "closed",
+        "received_at": "2026-04-26T04:10:00",
+        "received_by": "agency_intake_system",
+        "closed_at": "2026-04-28T04:00:00",
+        "closed_by": "investigator",
+        "closure_note": "Outbreak source identified (church potluck). 11 cases linked. Closed."
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-FA63CA49F5",
+        "submitted_at": "2026-04-26T04:00:00",
+        "state": "closed",
+        "received_at": "2026-04-26T04:10:00",
+        "received_by": "agency_intake_system",
+        "closed_at": "2026-04-28T04:00:00",
+        "closed_by": "investigator",
+        "closure_note": "Outbreak source identified (church potluck). 11 cases linked. Closed."
+      },
+      {
+        "destination_id": "county_maricopa",
+        "ack_id": "ACK-DD6CBBD5C0",
+        "submitted_at": "2026-04-26T04:00:00",
+        "state": "closed",
+        "received_at": "2026-04-26T04:10:00",
+        "received_by": "agency_intake_system",
+        "closed_at": "2026-05-02T04:00:00",
+        "closed_by": "investigator",
+        "closure_note": "Outbreak source identified (church potluck). 11 cases linked. Closed."
+      }
+    ]
+  },
+  {
+    "report_id": "R-655cd836",
+    "reporter_id": "dr-nguyen",
+    "subject_id": "P-ef04e57d",
+    "subject_kind": "human",
+    "disease_id": "pertussis",
+    "submitted_at": "2026-04-26T13:00:00",
+    "deliveries": [
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-66B28B924C",
+        "submitted_at": "2026-04-26T13:00:00",
+        "state": "closed",
+        "received_at": "2026-04-26T13:10:00",
+        "received_by": "agency_intake_system",
+        "closed_at": "2026-04-30T13:00:00",
+        "closed_by": "investigator",
+        "closure_note": "Household prophylaxis administered. School notified. Closed."
+      },
+      {
+        "destination_id": "cdc_nndss",
+        "ack_id": "ACK-7325045BF1",
+        "submitted_at": "2026-04-26T13:00:00",
+        "state": "closed",
+        "received_at": "2026-04-26T13:10:00",
+        "received_by": "agency_intake_system",
+        "closed_at": "2026-04-30T13:00:00",
+        "closed_by": "investigator",
+        "closure_note": "Household prophylaxis administered. School notified. Closed."
+      },
+      {
+        "destination_id": "county_maricopa",
+        "ack_id": "ACK-21E03026F1",
+        "submitted_at": "2026-04-26T13:00:00",
+        "state": "closed",
+        "received_at": "2026-04-26T13:10:00",
+        "received_by": "agency_intake_system",
+        "closed_at": "2026-04-29T13:00:00",
+        "closed_by": "investigator",
+        "closure_note": "Household prophylaxis administered. School notified. Closed."
+      }
+    ]
+  },
+  {
+    "report_id": "R-7cdb6b4f",
+    "reporter_id": "dr-cho",
+    "subject_id": "A-2d864c4a",
+    "subject_kind": "animal",
+    "disease_id": "rabies_animal",
+    "submitted_at": "2026-05-05T04:00:00",
+    "deliveries": [
+      {
+        "destination_id": "az_ada",
+        "ack_id": "ACK-158FEA2B71",
+        "submitted_at": "2026-05-05T04:00:00",
+        "state": "callback_pending",
+        "received_at": "2026-05-05T04:19:00",
+        "received_by": "agency_intake_system",
+        "callback": {
+          "question": "Please confirm exposure history details.",
+          "sent_by": "investigator",
+          "sent_at": "2026-05-06T00:00:00"
+        }
+      },
+      {
+        "destination_id": "usda_aphis",
+        "ack_id": "ACK-BEE771B147",
+        "submitted_at": "2026-05-05T04:00:00",
+        "state": "received",
+        "received_at": "2026-05-05T04:36:00",
+        "received_by": "agency_intake_system"
+      },
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-3E3DEAE85C",
+        "submitted_at": "2026-05-05T04:00:00",
+        "state": "received",
+        "received_at": "2026-05-05T04:04:00",
+        "received_by": "agency_intake_system"
+      }
+    ]
+  },
+  {
+    "report_id": "R-98e0988b",
+    "reporter_id": "dr-lawson",
+    "subject_id": "AZGFD-20260330-3462",
+    "subject_kind": "animal",
+    "disease_id": "plague",
+    "submitted_at": "2026-05-04T13:00:00",
+    "deliveries": [
+      {
+        "destination_id": "az_gfd",
+        "ack_id": "ACK-6995C185DD",
+        "submitted_at": "2026-05-04T13:00:00",
+        "state": "received",
+        "received_at": "2026-05-04T13:46:00",
+        "received_by": "agency_intake_system"
+      },
+      {
+        "destination_id": "adhs",
+        "ack_id": "ACK-73DF9724F1",
+        "submitted_at": "2026-05-04T13:00:00",
+        "state": "received",
+        "received_at": "2026-05-04T13:18:00",
+        "received_by": "agency_intake_system"
+      }
+    ]
+  }
+]

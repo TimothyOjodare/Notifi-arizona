@@ -1,0 +1,536 @@
+[
+  {
+    "animal_id": "A-10439bde",
+    "name": "Luna",
+    "species": "canine",
+    "owner": {
+      "name": "Anika Garcia",
+      "address": {
+        "line": [
+          "2731 W Glendale Rd"
+        ],
+        "city": "Tucson",
+        "state": "AZ",
+        "postalCode": "85003",
+        "county": "Pima"
+      },
+      "phone": "(520) 555-7338"
+    },
+    "facility_id": "tcv-tucson",
+    "facility_name": "Tucson Companion-Animal Vet",
+    "encounter_date": "2026-04-11",
+    "chief_complaint": "Chronic cough, weight loss",
+    "hpi": "Luna is a 2-year-old Labrador mix presenting with persistent cough x 3 weeks, weight loss 8 lb, lethargy. Lives in southern AZ desert environment. Yard has loose soil. Frequent digger.",
+    "exam": {
+      "temp_f": 101.2,
+      "hr": 83,
+      "rr": 25
+    },
+    "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+    "plan": "Fluconazole 5mg/kg PO daily x 6-12 months. Recheck titer at 8 weeks.",
+    "active_problems": [
+      {
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "is_reportable": true,
+        "disease_id": "valley_fever",
+        "is_zoonotic": false,
+        "lethal": false
+      }
+    ],
+    "lab_results": [
+      {
+        "name": "Coccidioides AGID",
+        "value": "Positive 1:32",
+        "abnormal": true
+      }
+    ],
+    "is_wildlife": false
+  },
+  {
+    "animal_id": "A-b37ee754",
+    "name": "Charlie",
+    "species": "canine",
+    "owner": {
+      "name": "Carlos Begay",
+      "address": {
+        "line": [
+          "1788 W Ina Rd"
+        ],
+        "city": "Casa Grande",
+        "state": "AZ",
+        "postalCode": "85716",
+        "county": "Pinal"
+      },
+      "phone": "(602) 555-8494"
+    },
+    "facility_id": "pinal-large",
+    "facility_name": "Pinal Large Animal Veterinary",
+    "encounter_date": "2026-03-29",
+    "chief_complaint": "Chronic cough, weight loss",
+    "hpi": "Charlie is a 4-year-old Australian Shepherd presenting with persistent cough x 3 weeks, weight loss 8 lb, lethargy. Lives in southern AZ desert environment. Yard has loose soil. Frequent digger.",
+    "exam": {
+      "temp_f": 100.9,
+      "hr": 85,
+      "rr": 30
+    },
+    "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+    "plan": "Fluconazole 5mg/kg PO daily x 6-12 months. Recheck titer at 8 weeks.",
+    "active_problems": [
+      {
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "is_reportable": true,
+        "disease_id": "valley_fever",
+        "is_zoonotic": false,
+        "lethal": false
+      }
+    ],
+    "lab_results": [
+      {
+        "name": "Coccidioides AGID",
+        "value": "Positive 1:32",
+        "abnormal": true
+      }
+    ],
+    "is_wildlife": false
+  },
+  {
+    "animal_id": "A-45f5c801",
+    "name": "Hen 47",
+    "species": "avian",
+    "owner": {
+      "name": "Anika Cooper",
+      "address": {
+        "line": [
+          "3371 W Speedway Rd"
+        ],
+        "city": "Phoenix",
+        "state": "AZ",
+        "postalCode": "85716",
+        "county": "Maricopa"
+      },
+      "phone": "(602) 555-2486"
+    },
+    "facility_id": "phx-vet",
+    "facility_name": "Phoenix Veterinary Specialists",
+    "encounter_date": "2026-04-07",
+    "chief_complaint": "Sudden flock mortality",
+    "hpi": "Backyard flock with sudden mortality \u2014 12 of 45 birds dead within 48 hours. Remaining birds depressed, decreased egg production, neurological signs. Wild bird traffic in area.",
+    "exam": {
+      "temp_f": 103.0,
+      "hr": 89,
+      "rr": 30
+    },
+    "assessment": "Confirmed Avian influenza (highly pathogenic). ICD-10 J09.X1. SCT 442438000.",
+    "plan": "Flock depopulated. Premises disinfected. APHIS HPAI response activated. ADHS notified for human-exposure surveillance.",
+    "active_problems": [
+      {
+        "name": "Avian influenza (highly pathogenic)",
+        "icd10": "J09.X1",
+        "snomed": "442438000",
+        "is_reportable": true,
+        "disease_id": "avian_influenza",
+        "is_zoonotic": true,
+        "lethal": true
+      }
+    ],
+    "lab_results": [
+      {
+        "name": "AI matrix PCR",
+        "value": "Positive H5",
+        "abnormal": true
+      }
+    ],
+    "is_wildlife": false
+  },
+  {
+    "animal_id": "A-5f53f26c",
+    "name": "Rocco",
+    "species": "canine",
+    "owner": {
+      "name": "Anika Begay",
+      "address": {
+        "line": [
+          "6160 W Ina Rd"
+        ],
+        "city": "Tucson",
+        "state": "AZ",
+        "postalCode": "85635",
+        "county": "Pima"
+      },
+      "phone": "(520) 555-9163"
+    },
+    "facility_id": "tcv-tucson",
+    "facility_name": "Tucson Companion-Animal Vet",
+    "encounter_date": "2026-03-31",
+    "chief_complaint": "Chronic cough, weight loss",
+    "hpi": "Rocco is a 8-year-old Australian Shepherd presenting with persistent cough x 3 weeks, weight loss 8 lb, lethargy. Lives in southern AZ desert environment. Yard has loose soil. Frequent digger.",
+    "exam": {
+      "temp_f": 101.1,
+      "hr": 134,
+      "rr": 23
+    },
+    "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+    "plan": "Fluconazole 5mg/kg PO daily x 6-12 months. Recheck titer at 8 weeks.",
+    "active_problems": [
+      {
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "is_reportable": true,
+        "disease_id": "valley_fever",
+        "is_zoonotic": false,
+        "lethal": false
+      }
+    ],
+    "lab_results": [
+      {
+        "name": "Coccidioides AGID",
+        "value": "Positive 1:32",
+        "abnormal": true
+      }
+    ],
+    "is_wildlife": false
+  },
+  {
+    "animal_id": "AZGFD-20260330-3462",
+    "name": "wild population",
+    "species": "wildlife",
+    "owner": {
+      "name": "AZ Game and Fish Department",
+      "address": {
+        "city": "Phoenix",
+        "state": "AZ",
+        "county": "Maricopa"
+      }
+    },
+    "facility_id": "phx-vet",
+    "facility_name": "Phoenix Veterinary Specialists",
+    "encounter_date": "2026-03-30",
+    "chief_complaint": "Wildlife die-off observed",
+    "hpi": "Prairie dog die-off observed at Coronado National Forest site. ~47 dead animals over 2-week period. Specimens submitted to USGS National Wildlife Health Center for Y. pestis testing.",
+    "exam": {
+      "temp_f": 101.5,
+      "hr": 110,
+      "rr": 34
+    },
+    "assessment": "Confirmed Plague. ICD-10 A20.9. SCT 58750007.",
+    "plan": "Site posted with warning signs. Flea control on prairie dog colonies. USGS + ADHS coordinating.",
+    "active_problems": [
+      {
+        "name": "Plague",
+        "icd10": "A20.9",
+        "snomed": "58750007",
+        "is_reportable": true,
+        "disease_id": "plague",
+        "is_zoonotic": true,
+        "lethal": true
+      }
+    ],
+    "lab_results": [
+      {
+        "name": "Y. pestis F1 antigen",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "is_wildlife": true
+  },
+  {
+    "animal_id": "A-f489e08b",
+    "name": "Buddy",
+    "species": "canine",
+    "owner": {
+      "name": "Linda Lopez",
+      "address": {
+        "line": [
+          "3147 W Ina Rd"
+        ],
+        "city": "Tucson",
+        "state": "AZ",
+        "postalCode": "85716",
+        "county": "Pima"
+      },
+      "phone": "(520) 555-5866"
+    },
+    "facility_id": "tcv-tucson",
+    "facility_name": "Tucson Companion-Animal Vet",
+    "encounter_date": "2026-04-03",
+    "chief_complaint": "Chronic cough, weight loss",
+    "hpi": "Buddy is a 8-year-old Border Collie presenting with persistent cough x 3 weeks, weight loss 8 lb, lethargy. Lives in southern AZ desert environment. Yard has loose soil. Frequent digger.",
+    "exam": {
+      "temp_f": 100.6,
+      "hr": 106,
+      "rr": 39
+    },
+    "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+    "plan": "Fluconazole 5mg/kg PO daily x 6-12 months. Recheck titer at 8 weeks.",
+    "active_problems": [
+      {
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "is_reportable": true,
+        "disease_id": "valley_fever",
+        "is_zoonotic": false,
+        "lethal": false
+      }
+    ],
+    "lab_results": [
+      {
+        "name": "Coccidioides AGID",
+        "value": "Positive 1:32",
+        "abnormal": true
+      }
+    ],
+    "is_wildlife": false
+  },
+  {
+    "animal_id": "A-164f3dca",
+    "name": "Shadow",
+    "species": "feline",
+    "owner": {
+      "name": "Maria Davis",
+      "address": {
+        "line": [
+          "2042 W Glendale Rd"
+        ],
+        "city": "Phoenix",
+        "state": "AZ",
+        "postalCode": "85225",
+        "county": "Maricopa"
+      },
+      "phone": "(602) 555-8474"
+    },
+    "facility_id": "phx-vet",
+    "facility_name": "Phoenix Veterinary Specialists",
+    "encounter_date": "2026-04-04",
+    "chief_complaint": "Acute lethargy, lymphadenopathy",
+    "hpi": "Shadow is an outdoor cat presenting with sudden lethargy, fever, painful submandibular swelling. Owner reports cat brings dead rodents home. Lives in northern AZ.",
+    "exam": {
+      "temp_f": 103.0,
+      "hr": 134,
+      "rr": 32
+    },
+    "assessment": "Confirmed Plague. ICD-10 A20.9. SCT 58750007.",
+    "plan": "Hospitalized in isolation. Streptomycin or gentamicin x 7-10 days. Public health notified per Y. pestis ELISA.",
+    "active_problems": [
+      {
+        "name": "Plague",
+        "icd10": "A20.9",
+        "snomed": "58750007",
+        "is_reportable": true,
+        "disease_id": "plague",
+        "is_zoonotic": true,
+        "lethal": false
+      }
+    ],
+    "lab_results": [
+      {
+        "name": "Y. pestis F1 antigen",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "is_wildlife": false
+  },
+  {
+    "animal_id": "A-2d864c4a",
+    "name": "Charlie",
+    "species": "canine",
+    "owner": {
+      "name": "Anthony Brown",
+      "address": {
+        "line": [
+          "9836 W Glendale Rd"
+        ],
+        "city": "Phoenix",
+        "state": "AZ",
+        "postalCode": "85225",
+        "county": "Maricopa"
+      },
+      "phone": "(602) 555-7519"
+    },
+    "facility_id": "phx-vet",
+    "facility_name": "Phoenix Veterinary Specialists",
+    "encounter_date": "2026-04-06",
+    "chief_complaint": "Bite incident, neurological signs",
+    "hpi": "Stray dog brought in by animal control after biting a child. Aggressive, drooling, ataxic. No rabies vaccination history. Specimen submitted to AZ State Vet Diagnostic Lab.",
+    "exam": {
+      "temp_f": 102.8,
+      "hr": 99,
+      "rr": 27
+    },
+    "assessment": "Confirmed Rabies in an animal (confirmed or suspect). ICD-10 A82.9. SCT 14168008.",
+    "plan": "Animal euthanized for testing. AZ State Vet Lab notified. Post-exposure prophylaxis arranged for bite victim.",
+    "active_problems": [
+      {
+        "name": "Rabies in an animal (confirmed or suspect)",
+        "icd10": "A82.9",
+        "snomed": "14168008",
+        "is_reportable": true,
+        "disease_id": "rabies_animal",
+        "is_zoonotic": true,
+        "lethal": true
+      }
+    ],
+    "lab_results": [
+      {
+        "name": "DFA brain stem",
+        "value": "Positive \u2014 pending state lab confirmation",
+        "abnormal": true
+      }
+    ],
+    "is_wildlife": false
+  },
+  {
+    "animal_id": "A-8bba5d33",
+    "name": "Bessie",
+    "species": "bovine",
+    "owner": {
+      "name": "James Smith",
+      "address": {
+        "line": [
+          "6475 W Speedway Rd"
+        ],
+        "city": "Casa Grande",
+        "state": "AZ",
+        "postalCode": "85716",
+        "county": "Pinal"
+      },
+      "phone": "(602) 555-8509"
+    },
+    "facility_id": "pinal-large",
+    "facility_name": "Pinal Large Animal Veterinary",
+    "encounter_date": "2026-04-02",
+    "chief_complaint": "Sudden death event in herd",
+    "hpi": "Sudden death of 3 head of cattle in a 24-hour period in Cochise County herd. Bloody discharge from natural orifices. Pasture had recent flooding event. Necropsy contraindicated; field samples submitted.",
+    "exam": {
+      "temp_f": 101.4,
+      "hr": 88,
+      "rr": 34
+    },
+    "assessment": "Confirmed Anthrax. ICD-10 A22.9. SCT 21927003.",
+    "plan": "Field carcasses left intact (no necropsy). Pasture quarantined. Surviving herd vaccinated. Ag Department + APHIS notified.",
+    "active_problems": [
+      {
+        "name": "Anthrax",
+        "icd10": "A22.9",
+        "snomed": "21927003",
+        "is_reportable": true,
+        "disease_id": "anthrax",
+        "is_zoonotic": true,
+        "lethal": true
+      }
+    ],
+    "lab_results": [
+      {
+        "name": "B. anthracis culture",
+        "value": "Pending",
+        "abnormal": true
+      }
+    ],
+    "is_wildlife": false
+  },
+  {
+    "animal_id": "A-03c5d1dd",
+    "name": "Thunder",
+    "species": "equine",
+    "owner": {
+      "name": "James Rodriguez",
+      "address": {
+        "line": [
+          "1876 W Speedway Rd"
+        ],
+        "city": "Sierra Vista",
+        "state": "AZ",
+        "postalCode": "85716",
+        "county": "Cochise"
+      },
+      "phone": "(602) 555-7807"
+    },
+    "facility_id": "cochise-vet",
+    "facility_name": "Cochise County Veterinary",
+    "encounter_date": "2026-04-14",
+    "chief_complaint": "Vesicular oral lesions",
+    "hpi": "Quarter horse with vesicular lesions on muzzle and tongue, drooling, refusing feed. Two other horses in same paddock now showing lesions.",
+    "exam": {
+      "temp_f": 100.9,
+      "hr": 100,
+      "rr": 28
+    },
+    "assessment": "Confirmed Vesicular stomatitis. ICD-10 A93.8. SCT 1431002.",
+    "plan": "Premises quarantined. Affected horses isolated. Reported to AZ State Vet + USDA APHIS.",
+    "active_problems": [
+      {
+        "name": "Vesicular stomatitis",
+        "icd10": "A93.8",
+        "snomed": "1431002",
+        "is_reportable": true,
+        "disease_id": "vesicular_stomatitis",
+        "is_zoonotic": false,
+        "lethal": false
+      }
+    ],
+    "lab_results": [
+      {
+        "name": "VSV PCR",
+        "value": "Positive \u2014 Indiana serotype",
+        "abnormal": true
+      }
+    ],
+    "is_wildlife": false
+  },
+  {
+    "animal_id": "A-2585702d",
+    "name": "Cooper",
+    "species": "canine",
+    "owner": {
+      "name": "Anika Johnson",
+      "address": {
+        "line": [
+          "1512 W Speedway Rd"
+        ],
+        "city": "Tucson",
+        "state": "AZ",
+        "postalCode": "85225",
+        "county": "Pima"
+      },
+      "phone": "(520) 555-2784"
+    },
+    "facility_id": "tcv-tucson",
+    "facility_name": "Tucson Companion-Animal Vet",
+    "encounter_date": "2026-03-25",
+    "chief_complaint": "Pre-breeding screen, abortion history",
+    "hpi": "Cooper is a 4-year-old breeding kennel sire with epididymitis, infertility issues over the past breeding season. Two dam pregnancies failed. Routine pre-breeding screen requested.",
+    "exam": {
+      "temp_f": 103.7,
+      "hr": 132,
+      "rr": 23
+    },
+    "assessment": "Confirmed Brucellosis. ICD-10 A23.9. SCT 75702008.",
+    "plan": "Confirmed by RSAT + tube agglutination. Spay/neuter recommended; long-term doxycycline+rifampin if breeding kennel value preserved. Report to ADA.",
+    "active_problems": [
+      {
+        "name": "Brucellosis",
+        "icd10": "A23.9",
+        "snomed": "75702008",
+        "is_reportable": true,
+        "disease_id": "brucellosis",
+        "is_zoonotic": true,
+        "lethal": false
+      }
+    ],
+    "lab_results": [
+      {
+        "name": "Brucella RSAT",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "is_wildlife": false
+  }
+]

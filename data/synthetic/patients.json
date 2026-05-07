@@ -1,0 +1,4614 @@
+[
+  {
+    "patient_id": "P-c35bec2c",
+    "name": {
+      "family": "Diaz",
+      "given": [
+        "William"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1970-12-23",
+    "age": 55,
+    "address": {
+      "line": [
+        "5464 S Park Ave"
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85032",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-3610",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-f1fac6e7",
+        "date": "2026-03-30",
+        "facility_id": "banner-mesa",
+        "facility_name": "Banner Health Mesa",
+        "type": "outpatient",
+        "chief_complaint": "Diabetes follow-up",
+        "hpi": "Patient is in their usual state of health. Routine follow-up visit.",
+        "exam": {
+          "temp_f": 98.6,
+          "hr": 90,
+          "rr": 13,
+          "spo2": 97,
+          "bp": "128/75"
+        },
+        "assessment": "Routine. No acute issues.",
+        "plan": "Continue current regimen. Return PRN.",
+        "icd10_codes": []
+      }
+    ],
+    "active_problems": [],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 0,
+    "occupation": "Various"
+  },
+  {
+    "patient_id": "P-7631de9d",
+    "name": {
+      "family": "Flores",
+      "given": [
+        "Lisa"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1951-05-30",
+    "age": 74,
+    "address": {
+      "line": [
+        "1475 W Glendale Ave"
+      ],
+      "city": "Tucson",
+      "state": "AZ",
+      "postalCode": "85716",
+      "county": "Pima"
+    },
+    "phone": "(520) 555-3977",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-e1301617",
+        "date": "2026-04-08",
+        "facility_id": "honor",
+        "facility_name": "HonorHealth Scottsdale",
+        "type": "outpatient",
+        "chief_complaint": "Acute gastroenteritis, fever",
+        "hpi": "74-year-old woman with 3-day history of acute gastroenteritis: watery diarrhea, abdominal cramping, fever to 102. Recent church potluck attendance with potato salad. Several other attendees also ill.",
+        "exam": {
+          "temp_f": 101.9,
+          "hr": 98,
+          "rr": 18,
+          "spo2": 99,
+          "bp": "112/87"
+        },
+        "assessment": "Confirmed Salmonellosis. ICD-10 A02.9. SCT 302229004.",
+        "plan": "Supportive care, oral rehydration. Stool culture confirmed. Antibiotics not indicated unless severe.",
+        "icd10_codes": [
+          "A02.9"
+        ],
+        "snomed_codes": [
+          "302229004"
+        ],
+        "disease_id": "salmonellosis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A02.9",
+        "snomed": "302229004",
+        "name": "Salmonellosis",
+        "onset_date": "2026-04-06",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "salmonellosis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Stool culture",
+        "loinc": "625-4",
+        "value": "Salmonella enterica subsp enterica",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "food_exposure": "Church potluck \u2014 potato salad",
+      "ill_contacts": 0,
+      "recent_travel": "No"
+    },
+    "contacts": 3,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-2a45c2ab",
+    "name": {
+      "family": "Cox",
+      "given": [
+        "Ana"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "2015-07-20",
+    "age": 10,
+    "address": {
+      "line": [
+        "2203 W Glendale Ave"
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85015",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-5342",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-337ea2df",
+        "date": "2026-04-08",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "10-year-old woman from Phoenix presenting with progressive cough x 4 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 101.1,
+          "hr": 96,
+          "rr": 19,
+          "spo2": 97,
+          "bp": "124/75"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-04-03",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Agricultural worker",
+      "recent_travel": "No"
+    },
+    "contacts": 2,
+    "occupation": "Agricultural worker"
+  },
+  {
+    "patient_id": "P-30cbd755",
+    "name": {
+      "family": "Benally",
+      "given": [
+        "Kee"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1970-08-25",
+    "age": 55,
+    "address": {
+      "line": [
+        "4093 N Oracle Rd"
+      ],
+      "city": "Whiteriver",
+      "state": "AZ",
+      "postalCode": "85941",
+      "county": "Apache"
+    },
+    "phone": "(602) 555-9327",
+    "tribal_residency": "tribal_apache",
+    "race": "amerindian",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-6a39aaa6",
+        "date": "2026-04-12",
+        "facility_id": "banner-mesa",
+        "facility_name": "Banner Health Mesa",
+        "type": "outpatient",
+        "chief_complaint": "Chronic cough, weight loss",
+        "hpi": "55-year-old man with chronic cough x 6 weeks, weight loss 12 lb, night sweats, low-grade fever. Recent immigration from endemic region. Household contacts identified.",
+        "exam": {
+          "temp_f": 100.7,
+          "hr": 85,
+          "rr": 18,
+          "spo2": 98,
+          "bp": "119/87"
+        },
+        "assessment": "Confirmed Tuberculosis, active disease. ICD-10 A15.9. SCT 56717001.",
+        "plan": "RIPE therapy initiated. Respiratory isolation. Contact tracing through ADHS TB program.",
+        "icd10_codes": [
+          "A15.9"
+        ],
+        "snomed_codes": [
+          "56717001"
+        ],
+        "disease_id": "tb_active",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A15.9",
+        "snomed": "56717001",
+        "name": "Tuberculosis, active disease",
+        "onset_date": "2026-04-08",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "tb_active"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "AFB smear",
+        "loinc": "10717-9",
+        "value": "3+ acid-fast bacilli",
+        "abnormal": true
+      },
+      {
+        "name": "MTB PCR",
+        "loinc": "38379-4",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Chest X-ray",
+        "loinc": "36643-5",
+        "value": "Upper-lobe cavitary lesion",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "country_of_origin": "USA",
+      "household_contacts": 5,
+      "occupation_healthcare": false
+    },
+    "contacts": 1,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-1933918c",
+    "name": {
+      "family": "Lopez",
+      "given": [
+        "Doli"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1993-06-04",
+    "age": 32,
+    "address": {
+      "line": [
+        "3827 E McDowell Rd"
+      ],
+      "city": "Chandler",
+      "state": "AZ",
+      "postalCode": "85225",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-2646",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-4b1a269b",
+        "date": "2026-04-14",
+        "facility_id": "tmc",
+        "facility_name": "Tucson Medical Center",
+        "type": "outpatient",
+        "chief_complaint": "Fever, rash, recent tick exposure",
+        "hpi": "32-year-old woman with fever, headache, myalgias x 5 days. Maculopapular rash on wrists and ankles, now spreading to trunk. Recent hiking in eastern AZ. Tick exposure reported.",
+        "exam": {
+          "temp_f": 99.8,
+          "hr": 101,
+          "rr": 19,
+          "spo2": 97,
+          "bp": "131/77"
+        },
+        "assessment": "Confirmed Spotted fever rickettsiosis (e.g., Rocky Mountain spotted fever). ICD-10 A77.0. SCT 186772009.",
+        "plan": "Doxycycline 100mg BID x 7-14 days. Continue until afebrile x 3 days.",
+        "icd10_codes": [
+          "A77.0"
+        ],
+        "snomed_codes": [
+          "186772009"
+        ],
+        "disease_id": "rmsf",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A77.0",
+        "snomed": "186772009",
+        "name": "Spotted fever rickettsiosis (e.g., Rocky Mountain spotted fever)",
+        "onset_date": "2026-04-10",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "rmsf"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Rickettsia rickettsii IgG",
+        "loinc": "31093-5",
+        "value": "1:128",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "tick_exposure": "Yes \u2014 eastern AZ hiking",
+      "outdoor_activity": true,
+      "geographic_area": "Apache-Sitgreaves National Forest"
+    },
+    "contacts": 3,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-59e1ac09",
+    "name": {
+      "family": "Howard",
+      "given": [
+        "Ana"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1943-03-09",
+    "age": 83,
+    "address": {
+      "line": [
+        "8455 S Stone Ave"
+      ],
+      "city": "Window Rock",
+      "state": "AZ",
+      "postalCode": "86515",
+      "county": "Apache"
+    },
+    "phone": "(602) 555-3419",
+    "tribal_residency": "tribal_navajo",
+    "race": "white",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-c257cf73",
+        "date": "2026-04-08",
+        "facility_id": "banner-phx",
+        "facility_name": "Banner Health Phoenix",
+        "type": "outpatient",
+        "chief_complaint": "Fever, rash, unvaccinated",
+        "hpi": "83-year-old woman with fever, cough, coryza, conjunctivitis x 3 days, now with maculopapular rash starting at hairline. Unvaccinated. Recent international travel.",
+        "exam": {
+          "temp_f": 101.4,
+          "hr": 100,
+          "rr": 19,
+          "spo2": 99,
+          "bp": "128/86"
+        },
+        "assessment": "Confirmed Measles (rubeola). ICD-10 B05.9. SCT 14189004.",
+        "plan": "Supportive care, vitamin A. Airborne isolation. Contact tracing critical.",
+        "icd10_codes": [
+          "B05.9"
+        ],
+        "snomed_codes": [
+          "14189004"
+        ],
+        "disease_id": "measles",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B05.9",
+        "snomed": "14189004",
+        "name": "Measles (rubeola)",
+        "onset_date": "2026-03-27",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "measles"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Measles IgM",
+        "loinc": "22501-1",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Measles PCR",
+        "loinc": "48508-6",
+        "value": "Detected",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "vaccination_status": "Unvaccinated",
+      "recent_travel": "International",
+      "school_or_daycare_contact": true
+    },
+    "contacts": 4,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-6f4cc69a",
+    "name": {
+      "family": "Garcia",
+      "given": [
+        "Shilah"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "2009-05-05",
+    "age": 16,
+    "address": {
+      "line": [
+        "4471 W Glendale Ave"
+      ],
+      "city": "Tuba City",
+      "state": "AZ",
+      "postalCode": "86045",
+      "county": "Coconino"
+    },
+    "phone": "(602) 555-3591",
+    "tribal_residency": "tribal_navajo",
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-e9a1fa6f",
+        "date": "2026-04-06",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "16-year-old man from Tuba City presenting with progressive cough x 2 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 100.2,
+          "hr": 105,
+          "rr": 20,
+          "spo2": 97,
+          "bp": "116/76"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-03-30",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Agricultural worker",
+      "recent_travel": "No"
+    },
+    "contacts": 4,
+    "occupation": "Agricultural worker"
+  },
+  {
+    "patient_id": "P-6c9f82b9",
+    "name": {
+      "family": "Morales",
+      "given": [
+        "Christopher"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "2004-03-14",
+    "age": 22,
+    "address": {
+      "line": [
+        "5761 S Park Ave"
+      ],
+      "city": "Tempe",
+      "state": "AZ",
+      "postalCode": "85281",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-5097",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-92698698",
+        "date": "2026-04-02",
+        "facility_id": "honor",
+        "facility_name": "HonorHealth Scottsdale",
+        "type": "outpatient",
+        "chief_complaint": "Fever, rash, recent tick exposure",
+        "hpi": "22-year-old man with fever, headache, myalgias x 5 days. Maculopapular rash on wrists and ankles, now spreading to trunk. Recent hiking in eastern AZ. Tick exposure reported.",
+        "exam": {
+          "temp_f": 102.0,
+          "hr": 94,
+          "rr": 16,
+          "spo2": 99,
+          "bp": "131/84"
+        },
+        "assessment": "Confirmed Spotted fever rickettsiosis (e.g., Rocky Mountain spotted fever). ICD-10 A77.0. SCT 186772009.",
+        "plan": "Doxycycline 100mg BID x 7-14 days. Continue until afebrile x 3 days.",
+        "icd10_codes": [
+          "A77.0"
+        ],
+        "snomed_codes": [
+          "186772009"
+        ],
+        "disease_id": "rmsf",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A77.0",
+        "snomed": "186772009",
+        "name": "Spotted fever rickettsiosis (e.g., Rocky Mountain spotted fever)",
+        "onset_date": "2026-03-27",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "rmsf"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Rickettsia rickettsii IgG",
+        "loinc": "31093-5",
+        "value": "1:128",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "tick_exposure": "Yes \u2014 eastern AZ hiking",
+      "outdoor_activity": true,
+      "geographic_area": "Apache-Sitgreaves National Forest"
+    },
+    "contacts": 5,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-58321ee4",
+    "name": {
+      "family": "Cruz",
+      "given": [
+        "David"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "2015-02-13",
+    "age": 11,
+    "address": {
+      "line": [
+        "1315 N Oracle Rd"
+      ],
+      "city": "Flagstaff",
+      "state": "AZ",
+      "postalCode": "86001",
+      "county": "Coconino"
+    },
+    "phone": "(602) 555-3102",
+    "tribal_residency": null,
+    "race": "amerindian",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-21084dd9",
+        "date": "2026-03-25",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Disease workup",
+        "hpi": "11-year-old man with confirmed Rabies in a human.",
+        "exam": {
+          "temp_f": 101.7,
+          "hr": 88,
+          "rr": 20,
+          "spo2": 94,
+          "bp": "119/77"
+        },
+        "assessment": "Confirmed Rabies in a human. ICD-10 A82.9. SCT 14168008.",
+        "plan": "Per protocol.",
+        "icd10_codes": [
+          "A82.9"
+        ],
+        "snomed_codes": [
+          "14168008"
+        ],
+        "disease_id": "rabies_human",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A82.9",
+        "snomed": "14168008",
+        "name": "Rabies in a human",
+        "onset_date": "2026-03-21",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "rabies_human"
+      }
+    ],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 4,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-bf780e3f",
+    "name": {
+      "family": "Wilson",
+      "given": [
+        "Yanaha"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1964-05-07",
+    "age": 61,
+    "address": {
+      "line": [
+        "6143 W Camelback Rd"
+      ],
+      "city": "Glendale",
+      "state": "AZ",
+      "postalCode": "85301",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-2876",
+    "tribal_residency": null,
+    "race": "amerindian",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-4fdc6e1b",
+        "date": "2026-04-05",
+        "facility_id": "tmc",
+        "facility_name": "Tucson Medical Center",
+        "type": "outpatient",
+        "chief_complaint": "Acute gastroenteritis, fever",
+        "hpi": "61-year-old woman with 3-day history of acute gastroenteritis: watery diarrhea, abdominal cramping, fever to 102. Recent church potluck attendance with potato salad. Several other attendees also ill.",
+        "exam": {
+          "temp_f": 101.9,
+          "hr": 97,
+          "rr": 21,
+          "spo2": 94,
+          "bp": "112/79"
+        },
+        "assessment": "Confirmed Salmonellosis. ICD-10 A02.9. SCT 302229004.",
+        "plan": "Supportive care, oral rehydration. Stool culture confirmed. Antibiotics not indicated unless severe.",
+        "icd10_codes": [
+          "A02.9"
+        ],
+        "snomed_codes": [
+          "302229004"
+        ],
+        "disease_id": "salmonellosis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A02.9",
+        "snomed": "302229004",
+        "name": "Salmonellosis",
+        "onset_date": "2026-04-02",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "salmonellosis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Stool culture",
+        "loinc": "625-4",
+        "value": "Salmonella enterica subsp enterica",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "food_exposure": "Home-cooked eggs",
+      "ill_contacts": 0,
+      "recent_travel": "No"
+    },
+    "contacts": 3,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-b6f6dbf1",
+    "name": {
+      "family": "Rivera",
+      "given": [
+        "Diego"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "2013-10-09",
+    "age": 12,
+    "address": {
+      "line": [
+        "561 E Broadway Blvd"
+      ],
+      "city": "Scottsdale",
+      "state": "AZ",
+      "postalCode": "85251",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-6493",
+    "tribal_residency": null,
+    "race": "amerindian",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-c24369e7",
+        "date": "2026-04-05",
+        "facility_id": "honor",
+        "facility_name": "HonorHealth Scottsdale",
+        "type": "outpatient",
+        "chief_complaint": "Painless ulcer, rash",
+        "hpi": "12-year-old man with painless genital ulcer noted 3 weeks ago, now resolved. Now with diffuse maculopapular rash including palms and soles. RPR ordered.",
+        "exam": {
+          "temp_f": 99.4,
+          "hr": 87,
+          "rr": 16,
+          "spo2": 95,
+          "bp": "116/76"
+        },
+        "assessment": "Confirmed Syphilis. ICD-10 A53.9. SCT 76272004.",
+        "plan": "Benzathine penicillin G 2.4M units IM. Confirm with VDRL and FTA-ABS. Partner notification.",
+        "icd10_codes": [
+          "A53.9"
+        ],
+        "snomed_codes": [
+          "76272004"
+        ],
+        "disease_id": "syphilis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A53.9",
+        "snomed": "76272004",
+        "name": "Syphilis",
+        "onset_date": "2026-03-26",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "syphilis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "RPR",
+        "loinc": "20507-0",
+        "value": "1:32",
+        "abnormal": true
+      },
+      {
+        "name": "FTA-ABS",
+        "loinc": "5292-4",
+        "value": "Reactive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "n_sexual_partners_3mo": 1,
+      "msm_status": true
+    },
+    "contacts": 3,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-add702c9",
+    "name": {
+      "family": "Begay",
+      "given": [
+        "Ana"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1941-10-31",
+    "age": 84,
+    "address": {
+      "line": [
+        "6372 S Park Ave"
+      ],
+      "city": "Yuma",
+      "state": "AZ",
+      "postalCode": "85364",
+      "county": "Yuma"
+    },
+    "phone": "(602) 555-8371",
+    "tribal_residency": null,
+    "race": "asian",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-65e58f34",
+        "date": "2026-04-12",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Fever, hepatitis, livestock exposure",
+        "hpi": "84-year-old woman with fever, severe headache, hepatitis x 2 weeks. Goat farmer. Recent kidding season with placenta exposure.",
+        "exam": {
+          "temp_f": 100.0,
+          "hr": 88,
+          "rr": 16,
+          "spo2": 98,
+          "bp": "115/87"
+        },
+        "assessment": "Confirmed Q fever. ICD-10 A78. SCT 16241000.",
+        "plan": "Doxycycline 100mg BID x 14 days. Echocardiogram to evaluate for endocarditis.",
+        "icd10_codes": [
+          "A78"
+        ],
+        "snomed_codes": [
+          "16241000"
+        ],
+        "disease_id": "q_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A78",
+        "snomed": "16241000",
+        "name": "Q fever",
+        "onset_date": "2026-04-02",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "q_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "C. burnetii Phase II IgG",
+        "loinc": "31064-6",
+        "value": "1:1024",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "occupation": "Goat farmer",
+      "kidding_season_exposure": true
+    },
+    "contacts": 0,
+    "occupation": "Goat farmer"
+  },
+  {
+    "patient_id": "P-5c941cf0",
+    "name": {
+      "family": "Smith",
+      "given": [
+        "Shilah"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1976-03-18",
+    "age": 50,
+    "address": {
+      "line": [
+        "4903 W Glendale Ave"
+      ],
+      "city": "Tuba City",
+      "state": "AZ",
+      "postalCode": "86045",
+      "county": "Coconino"
+    },
+    "phone": "(602) 555-4150",
+    "tribal_residency": "tribal_navajo",
+    "race": "amerindian",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-3b982ef8",
+        "date": "2026-04-07",
+        "facility_id": "banner-mesa",
+        "facility_name": "Banner Health Mesa",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "50-year-old man from Tuba City presenting with progressive cough x 2 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 100.6,
+          "hr": 96,
+          "rr": 17,
+          "spo2": 95,
+          "bp": "121/78"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-03-26",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Landscaping",
+      "recent_travel": "No"
+    },
+    "contacts": 0,
+    "occupation": "Landscaping"
+  },
+  {
+    "patient_id": "P-10275b53",
+    "name": {
+      "family": "Mendez",
+      "given": [
+        "Shilah"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1942-02-06",
+    "age": 84,
+    "address": {
+      "line": [
+        "7940 W Glendale Ave"
+      ],
+      "city": "Tempe",
+      "state": "AZ",
+      "postalCode": "85281",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-8498",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-83f02dc7",
+        "date": "2026-04-08",
+        "facility_id": "tmc",
+        "facility_name": "Tucson Medical Center",
+        "type": "outpatient",
+        "chief_complaint": "Painless ulcer, rash",
+        "hpi": "84-year-old man with painless genital ulcer noted 3 weeks ago, now resolved. Now with diffuse maculopapular rash including palms and soles. RPR ordered.",
+        "exam": {
+          "temp_f": 100.8,
+          "hr": 93,
+          "rr": 16,
+          "spo2": 99,
+          "bp": "130/78"
+        },
+        "assessment": "Confirmed Syphilis. ICD-10 A53.9. SCT 76272004.",
+        "plan": "Benzathine penicillin G 2.4M units IM. Confirm with VDRL and FTA-ABS. Partner notification.",
+        "icd10_codes": [
+          "A53.9"
+        ],
+        "snomed_codes": [
+          "76272004"
+        ],
+        "disease_id": "syphilis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A53.9",
+        "snomed": "76272004",
+        "name": "Syphilis",
+        "onset_date": "2026-04-02",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "syphilis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "RPR",
+        "loinc": "20507-0",
+        "value": "1:32",
+        "abnormal": true
+      },
+      {
+        "name": "FTA-ABS",
+        "loinc": "5292-4",
+        "value": "Reactive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "n_sexual_partners_3mo": 3,
+      "msm_status": true
+    },
+    "contacts": 3,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-827c9f8c",
+    "name": {
+      "family": "Diaz",
+      "given": [
+        "Susan"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1984-02-02",
+    "age": 42,
+    "address": {
+      "line": [
+        "5002 S Park Ave"
+      ],
+      "city": "Prescott",
+      "state": "AZ",
+      "postalCode": "86301",
+      "county": "Yavapai"
+    },
+    "phone": "(602) 555-9721",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-1c0f0bdc",
+        "date": "2026-03-30",
+        "facility_id": "tmc",
+        "facility_name": "Tucson Medical Center",
+        "type": "outpatient",
+        "chief_complaint": "Diabetes follow-up",
+        "hpi": "Patient is in their usual state of health. Routine follow-up visit.",
+        "exam": {
+          "temp_f": 98.7,
+          "hr": 85,
+          "rr": 12,
+          "spo2": 99,
+          "bp": "118/80"
+        },
+        "assessment": "Routine. No acute issues.",
+        "plan": "Continue current regimen. Return PRN.",
+        "icd10_codes": []
+      }
+    ],
+    "active_problems": [],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 0,
+    "occupation": "Various"
+  },
+  {
+    "patient_id": "P-714c7df4",
+    "name": {
+      "family": "Bell",
+      "given": [
+        "Juan"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1938-08-09",
+    "age": 87,
+    "address": {
+      "line": [
+        "9855 E Broadway Blvd"
+      ],
+      "city": "Tuba City",
+      "state": "AZ",
+      "postalCode": "86045",
+      "county": "Coconino"
+    },
+    "phone": "(602) 555-9270",
+    "tribal_residency": "tribal_navajo",
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-7337c599",
+        "date": "2026-03-31",
+        "facility_id": "banner-phx",
+        "facility_name": "Banner Health Phoenix",
+        "type": "outpatient",
+        "chief_complaint": "Acute gastroenteritis, fever",
+        "hpi": "87-year-old man with 3-day history of acute gastroenteritis: watery diarrhea, abdominal cramping, fever to 102. Recent church potluck attendance with potato salad. Several other attendees also ill.",
+        "exam": {
+          "temp_f": 101.6,
+          "hr": 93,
+          "rr": 22,
+          "spo2": 99,
+          "bp": "126/87"
+        },
+        "assessment": "Confirmed Salmonellosis. ICD-10 A02.9. SCT 302229004.",
+        "plan": "Supportive care, oral rehydration. Stool culture confirmed. Antibiotics not indicated unless severe.",
+        "icd10_codes": [
+          "A02.9"
+        ],
+        "snomed_codes": [
+          "302229004"
+        ],
+        "disease_id": "salmonellosis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A02.9",
+        "snomed": "302229004",
+        "name": "Salmonellosis",
+        "onset_date": "2026-03-19",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "salmonellosis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Stool culture",
+        "loinc": "625-4",
+        "value": "Salmonella enterica subsp enterica",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "food_exposure": "Restaurant chicken",
+      "ill_contacts": 0,
+      "recent_travel": "No"
+    },
+    "contacts": 1,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-9b69554d",
+    "name": {
+      "family": "Diaz",
+      "given": [
+        "Rebecca"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "2017-05-07",
+    "age": 8,
+    "address": {
+      "line": [
+        "4558 N Oracle Rd"
+      ],
+      "city": "Tucson",
+      "state": "AZ",
+      "postalCode": "85745",
+      "county": "Pima"
+    },
+    "phone": "(520) 555-8242",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-4882d73c",
+        "date": "2026-03-29",
+        "facility_id": "tmc",
+        "facility_name": "Tucson Medical Center",
+        "type": "outpatient",
+        "chief_complaint": "Recurrent fever, raw milk exposure",
+        "hpi": "8-year-old woman with intermittent fever, night sweats, arthralgia x 4 weeks. Cattle rancher in Cochise County. Reports consumption of raw milk from own herd.",
+        "exam": {
+          "temp_f": 101.1,
+          "hr": 86,
+          "rr": 17,
+          "spo2": 96,
+          "bp": "129/73"
+        },
+        "assessment": "Confirmed Brucellosis. ICD-10 A23.9. SCT 75702008.",
+        "plan": "Doxycycline 100mg BID + rifampin 600mg daily x 6 weeks.",
+        "icd10_codes": [
+          "A23.9"
+        ],
+        "snomed_codes": [
+          "75702008"
+        ],
+        "disease_id": "brucellosis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A23.9",
+        "snomed": "75702008",
+        "name": "Brucellosis",
+        "onset_date": "2026-03-27",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "brucellosis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Brucella agglutinin",
+        "loinc": "5057-1",
+        "value": "1:320",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "raw_milk_consumption": "Yes \u2014 own herd",
+      "occupation": "Cattle rancher",
+      "animal_contact": "Daily \u2014 cattle"
+    },
+    "contacts": 1,
+    "occupation": "Cattle rancher"
+  },
+  {
+    "patient_id": "P-bb7bee03",
+    "name": {
+      "family": "Sanchez",
+      "given": [
+        "Aisha"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1943-06-10",
+    "age": 82,
+    "address": {
+      "line": [
+        "5161 N Oracle Rd"
+      ],
+      "city": "Tucson",
+      "state": "AZ",
+      "postalCode": "85710",
+      "county": "Pima"
+    },
+    "phone": "(520) 555-3153",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-8a16a06c",
+        "date": "2026-04-01",
+        "facility_id": "banner-phx",
+        "facility_name": "Banner Health Phoenix",
+        "type": "outpatient",
+        "chief_complaint": "Fever, rash, recent tick exposure",
+        "hpi": "82-year-old woman with fever, headache, myalgias x 5 days. Maculopapular rash on wrists and ankles, now spreading to trunk. Recent hiking in eastern AZ. Tick exposure reported.",
+        "exam": {
+          "temp_f": 101.8,
+          "hr": 90,
+          "rr": 18,
+          "spo2": 99,
+          "bp": "125/81"
+        },
+        "assessment": "Confirmed Spotted fever rickettsiosis (e.g., Rocky Mountain spotted fever). ICD-10 A77.0. SCT 186772009.",
+        "plan": "Doxycycline 100mg BID x 7-14 days. Continue until afebrile x 3 days.",
+        "icd10_codes": [
+          "A77.0"
+        ],
+        "snomed_codes": [
+          "186772009"
+        ],
+        "disease_id": "rmsf",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A77.0",
+        "snomed": "186772009",
+        "name": "Spotted fever rickettsiosis (e.g., Rocky Mountain spotted fever)",
+        "onset_date": "2026-03-19",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "rmsf"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Rickettsia rickettsii IgG",
+        "loinc": "31093-5",
+        "value": "1:128",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "tick_exposure": "Yes \u2014 eastern AZ hiking",
+      "outdoor_activity": true,
+      "geographic_area": "Apache-Sitgreaves National Forest"
+    },
+    "contacts": 4,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-3d959e3f",
+    "name": {
+      "family": "Howard",
+      "given": [
+        "Aisha"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1951-01-01",
+    "age": 75,
+    "address": {
+      "line": [
+        "4872 W Ina Rd"
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85015",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-7825",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-8b48f496",
+        "date": "2026-03-29",
+        "facility_id": "banner-mesa",
+        "facility_name": "Banner Health Mesa",
+        "type": "outpatient",
+        "chief_complaint": "Painless ulcer, rash",
+        "hpi": "75-year-old woman with painless genital ulcer noted 3 weeks ago, now resolved. Now with diffuse maculopapular rash including palms and soles. RPR ordered.",
+        "exam": {
+          "temp_f": 100.7,
+          "hr": 85,
+          "rr": 19,
+          "spo2": 99,
+          "bp": "125/73"
+        },
+        "assessment": "Confirmed Syphilis. ICD-10 A53.9. SCT 76272004.",
+        "plan": "Benzathine penicillin G 2.4M units IM. Confirm with VDRL and FTA-ABS. Partner notification.",
+        "icd10_codes": [
+          "A53.9"
+        ],
+        "snomed_codes": [
+          "76272004"
+        ],
+        "disease_id": "syphilis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A53.9",
+        "snomed": "76272004",
+        "name": "Syphilis",
+        "onset_date": "2026-03-17",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "syphilis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "RPR",
+        "loinc": "20507-0",
+        "value": "1:32",
+        "abnormal": true
+      },
+      {
+        "name": "FTA-ABS",
+        "loinc": "5292-4",
+        "value": "Reactive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "n_sexual_partners_3mo": 3,
+      "msm_status": true
+    },
+    "contacts": 0,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-61c2645a",
+    "name": {
+      "family": "Murphy",
+      "given": [
+        "Linda"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1999-10-16",
+    "age": 26,
+    "address": {
+      "line": [
+        "7318 N Oracle Rd"
+      ],
+      "city": "San Carlos",
+      "state": "AZ",
+      "postalCode": "85550",
+      "county": "Gila"
+    },
+    "phone": "(602) 555-9239",
+    "tribal_residency": "tribal_apache",
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-0d5ba7cd",
+        "date": "2026-04-08",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Dysuria, urethral discharge",
+        "hpi": "26-year-old woman with dysuria and purulent urethral discharge x 5 days. Multiple recent sexual partners. Requesting STI screen.",
+        "exam": {
+          "temp_f": 100.8,
+          "hr": 88,
+          "rr": 21,
+          "spo2": 99,
+          "bp": "126/75"
+        },
+        "assessment": "Confirmed Gonorrhea. ICD-10 A54.9. SCT 15628003.",
+        "plan": "Ceftriaxone 500mg IM single dose. Test for chlamydia coinfection. Partner notification.",
+        "icd10_codes": [
+          "A54.9"
+        ],
+        "snomed_codes": [
+          "15628003"
+        ],
+        "disease_id": "gonorrhea",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A54.9",
+        "snomed": "15628003",
+        "name": "Gonorrhea",
+        "onset_date": "2026-04-02",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "gonorrhea"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "GC NAAT",
+        "loinc": "21416-3",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "n_sexual_partners_3mo": 4,
+      "condom_use": "Sometimes"
+    },
+    "contacts": 3,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-093923de",
+    "name": {
+      "family": "Reed",
+      "given": [
+        "Shilah"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1953-04-29",
+    "age": 73,
+    "address": {
+      "line": [
+        "1332 E McDowell Rd"
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85003",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-7049",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-eededb07",
+        "date": "2026-04-10",
+        "facility_id": "tmc",
+        "facility_name": "Tucson Medical Center",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "73-year-old man from Phoenix presenting with progressive cough x 2 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 99.9,
+          "hr": 92,
+          "rr": 21,
+          "spo2": 93,
+          "bp": "121/85"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-03-30",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Agricultural worker",
+      "recent_travel": "No"
+    },
+    "contacts": 3,
+    "occupation": "Agricultural worker"
+  },
+  {
+    "patient_id": "P-71818dcf",
+    "name": {
+      "family": "Sanchez",
+      "given": [
+        "Nancy"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1961-06-20",
+    "age": 64,
+    "address": {
+      "line": [
+        "4683 E Speedway Blvd"
+      ],
+      "city": "Sierra Vista",
+      "state": "AZ",
+      "postalCode": "85635",
+      "county": "Cochise"
+    },
+    "phone": "(602) 555-8285",
+    "tribal_residency": null,
+    "race": "asian",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-fa53e34d",
+        "date": "2026-04-11",
+        "facility_id": "naz",
+        "facility_name": "Northern AZ Healthcare",
+        "type": "inpatient",
+        "chief_complaint": "Fever, headache, rash",
+        "hpi": "64-year-old woman with fever, headache, fatigue, faint maculopapular rash. Lives in Pinal County (current mosquito anomaly). No recent travel.",
+        "exam": {
+          "temp_f": 101.6,
+          "hr": 103,
+          "rr": 30,
+          "spo2": 89,
+          "bp": "124/74"
+        },
+        "assessment": "Confirmed West Nile virus disease. ICD-10 A92.3. SCT 417093003.",
+        "plan": "Supportive care. Most cases self-limited. Monitor for neuroinvasive disease.",
+        "icd10_codes": [
+          "A92.3"
+        ],
+        "snomed_codes": [
+          "417093003"
+        ],
+        "disease_id": "west_nile",
+        "is_hospitalized": true
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A92.3",
+        "snomed": "417093003",
+        "name": "West Nile virus disease",
+        "onset_date": "2026-03-30",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "west_nile"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "WNV IgM (CSF)",
+        "loinc": "31739-3",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "mosquito_exposure": "Yes",
+      "outdoor_activity_evening": true,
+      "geographic_area": "Cochise County"
+    },
+    "contacts": 4,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-d756ba9c",
+    "name": {
+      "family": "Hernandez",
+      "given": [
+        "Emily"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1949-09-01",
+    "age": 76,
+    "address": {
+      "line": [
+        "8689 W Glendale Ave"
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85032",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-7229",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-30d73df7",
+        "date": "2026-04-13",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Annual physical",
+        "hpi": "Patient is in their usual state of health. Routine follow-up visit.",
+        "exam": {
+          "temp_f": 98.6,
+          "hr": 73,
+          "rr": 13,
+          "spo2": 99,
+          "bp": "116/76"
+        },
+        "assessment": "Routine. No acute issues.",
+        "plan": "Continue current regimen. Return PRN.",
+        "icd10_codes": []
+      }
+    ],
+    "active_problems": [],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 0,
+    "occupation": "Various"
+  },
+  {
+    "patient_id": "P-a181c85e",
+    "name": {
+      "family": "Castillo",
+      "given": [
+        "Karen"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1987-10-09",
+    "age": 38,
+    "address": {
+      "line": [
+        "5643 W Glendale Ave"
+      ],
+      "city": "Sierra Vista",
+      "state": "AZ",
+      "postalCode": "85635",
+      "county": "Cochise"
+    },
+    "phone": "(602) 555-6482",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-a8149562",
+        "date": "2026-04-02",
+        "facility_id": "banner-mesa",
+        "facility_name": "Banner Health Mesa",
+        "type": "outpatient",
+        "chief_complaint": "Dysuria, urethral discharge",
+        "hpi": "38-year-old woman with dysuria and purulent urethral discharge x 5 days. Multiple recent sexual partners. Requesting STI screen.",
+        "exam": {
+          "temp_f": 100.3,
+          "hr": 103,
+          "rr": 21,
+          "spo2": 94,
+          "bp": "121/81"
+        },
+        "assessment": "Confirmed Gonorrhea. ICD-10 A54.9. SCT 15628003.",
+        "plan": "Ceftriaxone 500mg IM single dose. Test for chlamydia coinfection. Partner notification.",
+        "icd10_codes": [
+          "A54.9"
+        ],
+        "snomed_codes": [
+          "15628003"
+        ],
+        "disease_id": "gonorrhea",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A54.9",
+        "snomed": "15628003",
+        "name": "Gonorrhea",
+        "onset_date": "2026-03-21",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "gonorrhea"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "GC NAAT",
+        "loinc": "21416-3",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "n_sexual_partners_3mo": 6,
+      "condom_use": "Sometimes"
+    },
+    "contacts": 0,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-d248a9a7",
+    "name": {
+      "family": "Gonzalez",
+      "given": [
+        "Carlos"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1994-05-13",
+    "age": 31,
+    "address": {
+      "line": [
+        "9719 E Speedway Blvd"
+      ],
+      "city": "San Carlos",
+      "state": "AZ",
+      "postalCode": "85550",
+      "county": "Gila"
+    },
+    "phone": "(602) 555-5415",
+    "tribal_residency": "tribal_apache",
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-ea83bf00",
+        "date": "2026-04-09",
+        "facility_id": "honor",
+        "facility_name": "HonorHealth Scottsdale",
+        "type": "outpatient",
+        "chief_complaint": "Chronic cough, weight loss",
+        "hpi": "31-year-old man with chronic cough x 6 weeks, weight loss 12 lb, night sweats, low-grade fever. Recent immigration from endemic region. Household contacts identified.",
+        "exam": {
+          "temp_f": 100.9,
+          "hr": 105,
+          "rr": 22,
+          "spo2": 96,
+          "bp": "112/87"
+        },
+        "assessment": "Confirmed Tuberculosis, active disease. ICD-10 A15.9. SCT 56717001.",
+        "plan": "RIPE therapy initiated. Respiratory isolation. Contact tracing through ADHS TB program.",
+        "icd10_codes": [
+          "A15.9"
+        ],
+        "snomed_codes": [
+          "56717001"
+        ],
+        "disease_id": "tb_active",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A15.9",
+        "snomed": "56717001",
+        "name": "Tuberculosis, active disease",
+        "onset_date": "2026-04-02",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "tb_active"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "AFB smear",
+        "loinc": "10717-9",
+        "value": "3+ acid-fast bacilli",
+        "abnormal": true
+      },
+      {
+        "name": "MTB PCR",
+        "loinc": "38379-4",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Chest X-ray",
+        "loinc": "36643-5",
+        "value": "Upper-lobe cavitary lesion",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "country_of_origin": "USA",
+      "household_contacts": 5,
+      "occupation_healthcare": false
+    },
+    "contacts": 0,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-2e326567",
+    "name": {
+      "family": "Ortiz",
+      "given": [
+        "Michael"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1990-03-13",
+    "age": 36,
+    "address": {
+      "line": [
+        "1393 W Ina Rd"
+      ],
+      "city": "Sierra Vista",
+      "state": "AZ",
+      "postalCode": "85635",
+      "county": "Cochise"
+    },
+    "phone": "(602) 555-9937",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-9a45693d",
+        "date": "2026-04-04",
+        "facility_id": "naz",
+        "facility_name": "Northern AZ Healthcare",
+        "type": "outpatient",
+        "chief_complaint": "Erythema migrans, arthralgia",
+        "hpi": "36-year-old man with erythema migrans, fatigue, arthralgias. Recent travel to Northeast US.",
+        "exam": {
+          "temp_f": 100.6,
+          "hr": 99,
+          "rr": 16,
+          "spo2": 98,
+          "bp": "137/83"
+        },
+        "assessment": "Confirmed Lyme disease. ICD-10 A69.20. SCT 23502006.",
+        "plan": "Doxycycline 100mg BID x 14-21 days.",
+        "icd10_codes": [
+          "A69.20"
+        ],
+        "snomed_codes": [
+          "23502006"
+        ],
+        "disease_id": "lyme",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A69.20",
+        "snomed": "23502006",
+        "name": "Lyme disease",
+        "onset_date": "2026-03-24",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "lyme"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "B. burgdorferi IgG/IgM",
+        "loinc": "29575-5",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {},
+    "contacts": 0,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-9e50aa42",
+    "name": {
+      "family": "Becenti",
+      "given": [
+        "Yanaha"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "2013-12-12",
+    "age": 12,
+    "address": {
+      "line": [
+        "9243 W Ina Rd"
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85003",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-4697",
+    "tribal_residency": null,
+    "race": "amerindian",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-6dc7cac7",
+        "date": "2026-03-31",
+        "facility_id": "banner-mesa",
+        "facility_name": "Banner Health Mesa",
+        "type": "outpatient",
+        "chief_complaint": "Persistent paroxysmal cough",
+        "hpi": "12-year-old woman with paroxysmal cough x 2 weeks, post-tussive emesis, characteristic 'whoop'. Unvaccinated child sibling at home. Mother also has cough.",
+        "exam": {
+          "temp_f": 99.6,
+          "hr": 108,
+          "rr": 16,
+          "spo2": 99,
+          "bp": "116/78"
+        },
+        "assessment": "Confirmed Pertussis (whooping cough). ICD-10 A37.9. SCT 27836007.",
+        "plan": "Azithromycin 500mg x 1 day, then 250mg x 4 days. Family contacts to receive prophylaxis.",
+        "icd10_codes": [
+          "A37.9"
+        ],
+        "snomed_codes": [
+          "27836007"
+        ],
+        "disease_id": "pertussis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A37.9",
+        "snomed": "27836007",
+        "name": "Pertussis (whooping cough)",
+        "onset_date": "2026-03-25",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "pertussis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "B. pertussis PCR",
+        "loinc": "23826-1",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "vaccination_status": "Unknown \u2014 adult Tdap >10 years ago",
+      "household_contacts": 2,
+      "child_contacts_under_5": true
+    },
+    "contacts": 1,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-0ff0a55c",
+    "name": {
+      "family": "Williams",
+      "given": [
+        "Matthew"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1997-03-21",
+    "age": 29,
+    "address": {
+      "line": [
+        "6778 E Broadway Blvd"
+      ],
+      "city": "Sierra Vista",
+      "state": "AZ",
+      "postalCode": "85635",
+      "county": "Cochise"
+    },
+    "phone": "(602) 555-4388",
+    "tribal_residency": null,
+    "race": "amerindian",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-c3fe0183",
+        "date": "2026-03-27",
+        "facility_id": "naz",
+        "facility_name": "Northern AZ Healthcare",
+        "type": "outpatient",
+        "chief_complaint": "Acute gastroenteritis, fever",
+        "hpi": "29-year-old man with 3-day history of acute gastroenteritis: watery diarrhea, abdominal cramping, fever to 102. Recent church potluck attendance with potato salad. Several other attendees also ill.",
+        "exam": {
+          "temp_f": 99.4,
+          "hr": 96,
+          "rr": 18,
+          "spo2": 99,
+          "bp": "122/85"
+        },
+        "assessment": "Confirmed Salmonellosis. ICD-10 A02.9. SCT 302229004.",
+        "plan": "Supportive care, oral rehydration. Stool culture confirmed. Antibiotics not indicated unless severe.",
+        "icd10_codes": [
+          "A02.9"
+        ],
+        "snomed_codes": [
+          "302229004"
+        ],
+        "disease_id": "salmonellosis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A02.9",
+        "snomed": "302229004",
+        "name": "Salmonellosis",
+        "onset_date": "2026-03-17",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "salmonellosis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Stool culture",
+        "loinc": "625-4",
+        "value": "Salmonella enterica subsp enterica",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "food_exposure": "Church potluck \u2014 potato salad",
+      "ill_contacts": 2,
+      "recent_travel": "No"
+    },
+    "contacts": 1,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-69ca97d2",
+    "name": {
+      "family": "Garcia-Lopez",
+      "given": [
+        "James"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "2009-09-25",
+    "age": 16,
+    "address": {
+      "line": [
+        "118 W Glendale Ave"
+      ],
+      "city": "Window Rock",
+      "state": "AZ",
+      "postalCode": "86515",
+      "county": "Apache"
+    },
+    "phone": "(602) 555-1888",
+    "tribal_residency": "tribal_navajo",
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-341c6494",
+        "date": "2026-03-30",
+        "facility_id": "naz",
+        "facility_name": "Northern AZ Healthcare",
+        "type": "outpatient",
+        "chief_complaint": "Chronic cough, weight loss",
+        "hpi": "16-year-old man with chronic cough x 6 weeks, weight loss 12 lb, night sweats, low-grade fever. Recent immigration from endemic region. Household contacts identified.",
+        "exam": {
+          "temp_f": 101.8,
+          "hr": 99,
+          "rr": 21,
+          "spo2": 96,
+          "bp": "113/72"
+        },
+        "assessment": "Confirmed Tuberculosis, active disease. ICD-10 A15.9. SCT 56717001.",
+        "plan": "RIPE therapy initiated. Respiratory isolation. Contact tracing through ADHS TB program.",
+        "icd10_codes": [
+          "A15.9"
+        ],
+        "snomed_codes": [
+          "56717001"
+        ],
+        "disease_id": "tb_active",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A15.9",
+        "snomed": "56717001",
+        "name": "Tuberculosis, active disease",
+        "onset_date": "2026-03-18",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "tb_active"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "AFB smear",
+        "loinc": "10717-9",
+        "value": "3+ acid-fast bacilli",
+        "abnormal": true
+      },
+      {
+        "name": "MTB PCR",
+        "loinc": "38379-4",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Chest X-ray",
+        "loinc": "36643-5",
+        "value": "Upper-lobe cavitary lesion",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "country_of_origin": "USA",
+      "household_contacts": 2,
+      "occupation_healthcare": false
+    },
+    "contacts": 3,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-e1e3db63",
+    "name": {
+      "family": "Begay",
+      "given": [
+        "Dezbah"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1988-05-17",
+    "age": 37,
+    "address": {
+      "line": [
+        "3610 E Grant Rd"
+      ],
+      "city": "Whiteriver",
+      "state": "AZ",
+      "postalCode": "85941",
+      "county": "Apache"
+    },
+    "phone": "(602) 555-8744",
+    "tribal_residency": "tribal_apache",
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-6e595ed3",
+        "date": "2026-04-01",
+        "facility_id": "banner-phx",
+        "facility_name": "Banner Health Phoenix",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "37-year-old woman from Whiteriver presenting with progressive cough x 4 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 100.6,
+          "hr": 108,
+          "rr": 16,
+          "spo2": 98,
+          "bp": "130/75"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-03-30",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Office worker",
+      "recent_travel": "No"
+    },
+    "contacts": 3,
+    "occupation": "Office worker"
+  },
+  {
+    "patient_id": "P-3170f437",
+    "name": {
+      "family": "Tsosie",
+      "given": [
+        "Aiyana"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1998-08-30",
+    "age": 27,
+    "address": {
+      "line": [
+        "5100 S Stone Ave"
+      ],
+      "city": "Yuma",
+      "state": "AZ",
+      "postalCode": "85364",
+      "county": "Yuma"
+    },
+    "phone": "(602) 555-7528",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-adf4e62d",
+        "date": "2026-04-06",
+        "facility_id": "banner-mesa",
+        "facility_name": "Banner Health Mesa",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "27-year-old woman from Yuma presenting with progressive cough x 6 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 99.5,
+          "hr": 93,
+          "rr": 17,
+          "spo2": 97,
+          "bp": "118/73"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-04-03",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Office worker",
+      "recent_travel": "Visited Phoenix metro"
+    },
+    "contacts": 0,
+    "occupation": "Office worker"
+  },
+  {
+    "patient_id": "P-3f07f814",
+    "name": {
+      "family": "Lopez",
+      "given": [
+        "Lucia"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1948-03-31",
+    "age": 78,
+    "address": {
+      "line": [
+        "6715 N Country Club Rd"
+      ],
+      "city": "Scottsdale",
+      "state": "AZ",
+      "postalCode": "85251",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-1651",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-42c18a62",
+        "date": "2026-03-27",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "78-year-old woman from Scottsdale presenting with progressive cough x 3 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 100.2,
+          "hr": 93,
+          "rr": 19,
+          "spo2": 94,
+          "bp": "131/81"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-03-18",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Landscaping",
+      "recent_travel": "No"
+    },
+    "contacts": 2,
+    "occupation": "Landscaping"
+  },
+  {
+    "patient_id": "P-3c20592f",
+    "name": {
+      "family": "Gonzalez",
+      "given": [
+        "Jessica"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1987-08-05",
+    "age": 38,
+    "address": {
+      "line": [
+        "5591 N Country Club Rd"
+      ],
+      "city": "Casa Grande",
+      "state": "AZ",
+      "postalCode": "85122",
+      "county": "Pinal"
+    },
+    "phone": "(602) 555-6085",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-9c7c7377",
+        "date": "2026-04-14",
+        "facility_id": "tmc",
+        "facility_name": "Tucson Medical Center",
+        "type": "outpatient",
+        "chief_complaint": "Acute gastroenteritis, fever",
+        "hpi": "38-year-old woman with 3-day history of acute gastroenteritis: watery diarrhea, abdominal cramping, fever to 102. Recent church potluck attendance with potato salad. Several other attendees also ill.",
+        "exam": {
+          "temp_f": 101.7,
+          "hr": 103,
+          "rr": 17,
+          "spo2": 98,
+          "bp": "132/84"
+        },
+        "assessment": "Confirmed Salmonellosis. ICD-10 A02.9. SCT 302229004.",
+        "plan": "Supportive care, oral rehydration. Stool culture confirmed. Antibiotics not indicated unless severe.",
+        "icd10_codes": [
+          "A02.9"
+        ],
+        "snomed_codes": [
+          "302229004"
+        ],
+        "disease_id": "salmonellosis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A02.9",
+        "snomed": "302229004",
+        "name": "Salmonellosis",
+        "onset_date": "2026-04-05",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "salmonellosis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Stool culture",
+        "loinc": "625-4",
+        "value": "Salmonella enterica subsp enterica",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "food_exposure": "Church potluck \u2014 potato salad",
+      "ill_contacts": 0,
+      "recent_travel": "No"
+    },
+    "contacts": 0,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-f7294951",
+    "name": {
+      "family": "Reed",
+      "given": [
+        "Miguel"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1977-06-06",
+    "age": 48,
+    "address": {
+      "line": [
+        "2606 W Ina Rd"
+      ],
+      "city": "Tempe",
+      "state": "AZ",
+      "postalCode": "85281",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-5425",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-97ac6aa8",
+        "date": "2026-03-30",
+        "facility_id": "honor",
+        "facility_name": "HonorHealth Scottsdale",
+        "type": "outpatient",
+        "chief_complaint": "Acute gastroenteritis, fever",
+        "hpi": "48-year-old man with 3-day history of acute gastroenteritis: watery diarrhea, abdominal cramping, fever to 102. Recent church potluck attendance with potato salad. Several other attendees also ill.",
+        "exam": {
+          "temp_f": 100.0,
+          "hr": 87,
+          "rr": 18,
+          "spo2": 96,
+          "bp": "117/86"
+        },
+        "assessment": "Confirmed Salmonellosis. ICD-10 A02.9. SCT 302229004.",
+        "plan": "Supportive care, oral rehydration. Stool culture confirmed. Antibiotics not indicated unless severe.",
+        "icd10_codes": [
+          "A02.9"
+        ],
+        "snomed_codes": [
+          "302229004"
+        ],
+        "disease_id": "salmonellosis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A02.9",
+        "snomed": "302229004",
+        "name": "Salmonellosis",
+        "onset_date": "2026-03-19",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "salmonellosis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Stool culture",
+        "loinc": "625-4",
+        "value": "Salmonella enterica subsp enterica",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "food_exposure": "Church potluck \u2014 potato salad",
+      "ill_contacts": 3,
+      "recent_travel": "No"
+    },
+    "contacts": 4,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-13c11754",
+    "name": {
+      "family": "Davis",
+      "given": [
+        "John"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1996-10-30",
+    "age": 29,
+    "address": {
+      "line": [
+        "3245 S Stone Ave"
+      ],
+      "city": "Whiteriver",
+      "state": "AZ",
+      "postalCode": "85941",
+      "county": "Apache"
+    },
+    "phone": "(602) 555-5846",
+    "tribal_residency": "tribal_apache",
+    "race": "amerindian",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-a97431db",
+        "date": "2026-03-28",
+        "facility_id": "naz",
+        "facility_name": "Northern AZ Healthcare",
+        "type": "outpatient",
+        "chief_complaint": "Dysuria, urethral discharge",
+        "hpi": "29-year-old man with dysuria and purulent urethral discharge x 5 days. Multiple recent sexual partners. Requesting STI screen.",
+        "exam": {
+          "temp_f": 101.0,
+          "hr": 104,
+          "rr": 19,
+          "spo2": 94,
+          "bp": "115/77"
+        },
+        "assessment": "Confirmed Gonorrhea. ICD-10 A54.9. SCT 15628003.",
+        "plan": "Ceftriaxone 500mg IM single dose. Test for chlamydia coinfection. Partner notification.",
+        "icd10_codes": [
+          "A54.9"
+        ],
+        "snomed_codes": [
+          "15628003"
+        ],
+        "disease_id": "gonorrhea",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A54.9",
+        "snomed": "15628003",
+        "name": "Gonorrhea",
+        "onset_date": "2026-03-15",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "gonorrhea"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "GC NAAT",
+        "loinc": "21416-3",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "n_sexual_partners_3mo": 4,
+      "condom_use": "Never"
+    },
+    "contacts": 4,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-10d08d11",
+    "name": {
+      "family": "Reed",
+      "given": [
+        "William"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "2010-08-11",
+    "age": 15,
+    "address": {
+      "line": [
+        "1304 N Country Club Rd"
+      ],
+      "city": "Tempe",
+      "state": "AZ",
+      "postalCode": "85281",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-3067",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-98eeac2b",
+        "date": "2026-03-28",
+        "facility_id": "naz",
+        "facility_name": "Northern AZ Healthcare",
+        "type": "outpatient",
+        "chief_complaint": "Fever, headache, rash",
+        "hpi": "15-year-old man with fever, headache, fatigue, faint maculopapular rash. Lives in Pinal County (current mosquito anomaly). No recent travel.",
+        "exam": {
+          "temp_f": 100.7,
+          "hr": 98,
+          "rr": 16,
+          "spo2": 99,
+          "bp": "132/75"
+        },
+        "assessment": "Confirmed West Nile virus disease. ICD-10 A92.3. SCT 417093003.",
+        "plan": "Supportive care. Most cases self-limited. Monitor for neuroinvasive disease.",
+        "icd10_codes": [
+          "A92.3"
+        ],
+        "snomed_codes": [
+          "417093003"
+        ],
+        "disease_id": "west_nile",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A92.3",
+        "snomed": "417093003",
+        "name": "West Nile virus disease",
+        "onset_date": "2026-03-16",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "west_nile"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "WNV IgM (CSF)",
+        "loinc": "31739-3",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "mosquito_exposure": "Yes",
+      "outdoor_activity_evening": true,
+      "geographic_area": "Maricopa County"
+    },
+    "contacts": 5,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-4ca415ea",
+    "name": {
+      "family": "Bailey",
+      "given": [
+        "Antonio"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1954-05-08",
+    "age": 71,
+    "address": {
+      "line": [
+        "8766 E Speedway Blvd"
+      ],
+      "city": "Chandler",
+      "state": "AZ",
+      "postalCode": "85225",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-2697",
+    "tribal_residency": null,
+    "race": "black",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-45b89cd9",
+        "date": "2026-04-11",
+        "facility_id": "tmc",
+        "facility_name": "Tucson Medical Center",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "71-year-old man from Chandler presenting with progressive cough x 4 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 101.3,
+          "hr": 91,
+          "rr": 21,
+          "spo2": 98,
+          "bp": "137/80"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-04-01",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Office worker",
+      "recent_travel": "Visited Phoenix metro"
+    },
+    "contacts": 5,
+    "occupation": "Office worker"
+  },
+  {
+    "patient_id": "P-1b84edc3",
+    "name": {
+      "family": "Nez",
+      "given": [
+        "Sofia"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1960-06-30",
+    "age": 65,
+    "address": {
+      "line": [
+        "7810 N Central Ave"
+      ],
+      "city": "Casa Grande",
+      "state": "AZ",
+      "postalCode": "85122",
+      "county": "Pinal"
+    },
+    "phone": "(602) 555-8060",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-0d18ab95",
+        "date": "2026-04-03",
+        "facility_id": "honor",
+        "facility_name": "HonorHealth Scottsdale",
+        "type": "outpatient",
+        "chief_complaint": "Med refill",
+        "hpi": "Patient is in their usual state of health. Routine follow-up visit.",
+        "exam": {
+          "temp_f": 98.5,
+          "hr": 69,
+          "rr": 12,
+          "spo2": 99,
+          "bp": "126/77"
+        },
+        "assessment": "Routine. No acute issues.",
+        "plan": "Continue current regimen. Return PRN.",
+        "icd10_codes": []
+      }
+    ],
+    "active_problems": [],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 0,
+    "occupation": "Various"
+  },
+  {
+    "patient_id": "P-bd21bc11",
+    "name": {
+      "family": "Williams",
+      "given": [
+        "Michael"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1964-03-27",
+    "age": 62,
+    "address": {
+      "line": [
+        "1498 N Country Club Rd"
+      ],
+      "city": "Tucson",
+      "state": "AZ",
+      "postalCode": "85745",
+      "county": "Pima"
+    },
+    "phone": "(520) 555-7105",
+    "tribal_residency": null,
+    "race": "amerindian",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-1f4a8ca1",
+        "date": "2026-03-27",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Fever, lymphadenopathy",
+        "hpi": "62-year-old man with sudden fever, painful inguinal lymphadenopathy. Reports flea bites and dead prairie dogs on property in Coconino County. Suspected bubonic plague.",
+        "exam": {
+          "temp_f": 101.1,
+          "hr": 109,
+          "rr": 19,
+          "spo2": 99,
+          "bp": "133/73"
+        },
+        "assessment": "Confirmed Plague. ICD-10 A20.9. SCT 58750007.",
+        "plan": "Streptomycin 1g IM BID x 10 days OR doxycycline. Hospital isolation.",
+        "icd10_codes": [
+          "A20.9"
+        ],
+        "snomed_codes": [
+          "58750007"
+        ],
+        "disease_id": "plague",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A20.9",
+        "snomed": "58750007",
+        "name": "Plague",
+        "onset_date": "2026-03-21",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "plague"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Y. pestis F1 antigen",
+        "loinc": "29615-9",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "flea_exposure": "Yes",
+      "rodent_die_off_observed": "Yes \u2014 prairie dogs on property",
+      "geographic_area": "Northern AZ"
+    },
+    "contacts": 2,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-d4578ad9",
+    "name": {
+      "family": "Reyes",
+      "given": [
+        "Nancy"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1944-06-25",
+    "age": 81,
+    "address": {
+      "line": [
+        "9221 E Speedway Blvd"
+      ],
+      "city": "Casa Grande",
+      "state": "AZ",
+      "postalCode": "85122",
+      "county": "Pinal"
+    },
+    "phone": "(602) 555-5381",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-deaf528d",
+        "date": "2026-04-05",
+        "facility_id": "banner-mesa",
+        "facility_name": "Banner Health Mesa",
+        "type": "outpatient",
+        "chief_complaint": "Recurrent fever, raw milk exposure",
+        "hpi": "81-year-old woman with intermittent fever, night sweats, arthralgia x 4 weeks. Cattle rancher in Cochise County. Reports consumption of raw milk from own herd.",
+        "exam": {
+          "temp_f": 100.4,
+          "hr": 89,
+          "rr": 21,
+          "spo2": 98,
+          "bp": "110/74"
+        },
+        "assessment": "Confirmed Brucellosis. ICD-10 A23.9. SCT 75702008.",
+        "plan": "Doxycycline 100mg BID + rifampin 600mg daily x 6 weeks.",
+        "icd10_codes": [
+          "A23.9"
+        ],
+        "snomed_codes": [
+          "75702008"
+        ],
+        "disease_id": "brucellosis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A23.9",
+        "snomed": "75702008",
+        "name": "Brucellosis",
+        "onset_date": "2026-03-23",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "brucellosis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Brucella agglutinin",
+        "loinc": "5057-1",
+        "value": "1:320",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "raw_milk_consumption": "Yes \u2014 own herd",
+      "occupation": "Cattle rancher",
+      "animal_contact": "Daily \u2014 cattle"
+    },
+    "contacts": 1,
+    "occupation": "Cattle rancher"
+  },
+  {
+    "patient_id": "P-5f18e583",
+    "name": {
+      "family": "Castillo",
+      "given": [
+        "Sandra"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1937-05-28",
+    "age": 88,
+    "address": {
+      "line": [
+        "9677 W Ina Rd"
+      ],
+      "city": "Glendale",
+      "state": "AZ",
+      "postalCode": "85301",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-2775",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-38ab854c",
+        "date": "2026-03-26",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Acute respiratory distress",
+        "hpi": "88-year-old woman with abrupt fever, myalgias, then progressive dyspnea over 48 hours. Recent rodent exposure cleaning out cabin in northern AZ. Now hypoxic, requires admission.",
+        "exam": {
+          "temp_f": 100.6,
+          "hr": 107,
+          "rr": 18,
+          "spo2": 98,
+          "bp": "123/75"
+        },
+        "assessment": "Confirmed Hantavirus infection. ICD-10 B33.4. SCT 63702000.",
+        "plan": "ICU admission. Supportive care, mechanical ventilation as needed. Ribavirin not effective.",
+        "icd10_codes": [
+          "B33.4"
+        ],
+        "snomed_codes": [
+          "63702000"
+        ],
+        "disease_id": "hantavirus",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B33.4",
+        "snomed": "63702000",
+        "name": "Hantavirus infection",
+        "onset_date": "2026-03-22",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "hantavirus"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Hantavirus IgM",
+        "loinc": "30178-5",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "rodent_exposure": "Yes \u2014 cleaning rural cabin",
+      "geographic_area": "Coconino County"
+    },
+    "contacts": 4,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-9aea622f",
+    "name": {
+      "family": "Brown",
+      "given": [
+        "Dezbah"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1948-07-11",
+    "age": 77,
+    "address": {
+      "line": [
+        "2904 W Glendale Ave"
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85015",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-6531",
+    "tribal_residency": null,
+    "race": "amerindian",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-c561b8dc",
+        "date": "2026-04-14",
+        "facility_id": "tmc",
+        "facility_name": "Tucson Medical Center",
+        "type": "outpatient",
+        "chief_complaint": "Disease workup",
+        "hpi": "77-year-old woman with confirmed Ehrlichiosis or Anaplasmosis.",
+        "exam": {
+          "temp_f": 99.9,
+          "hr": 103,
+          "rr": 19,
+          "spo2": 97,
+          "bp": "130/72"
+        },
+        "assessment": "Confirmed Ehrlichiosis or Anaplasmosis. ICD-10 A77.40. SCT 31996006.",
+        "plan": "Per protocol.",
+        "icd10_codes": [
+          "A77.40"
+        ],
+        "snomed_codes": [
+          "31996006"
+        ],
+        "disease_id": "ehrlichiosis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A77.40",
+        "snomed": "31996006",
+        "name": "Ehrlichiosis or Anaplasmosis",
+        "onset_date": "2026-04-05",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "ehrlichiosis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 3,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-ef04e57d",
+    "name": {
+      "family": "Nez",
+      "given": [
+        "Matthew"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1966-03-25",
+    "age": 60,
+    "address": {
+      "line": [
+        "4434 W Glendale Ave"
+      ],
+      "city": "Scottsdale",
+      "state": "AZ",
+      "postalCode": "85251",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-4241",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-246998e8",
+        "date": "2026-03-25",
+        "facility_id": "banner-phx",
+        "facility_name": "Banner Health Phoenix",
+        "type": "inpatient",
+        "chief_complaint": "Persistent paroxysmal cough",
+        "hpi": "60-year-old man with paroxysmal cough x 2 weeks, post-tussive emesis, characteristic 'whoop'. Unvaccinated child sibling at home. Mother also has cough.",
+        "exam": {
+          "temp_f": 103.0,
+          "hr": 119,
+          "rr": 29,
+          "spo2": 89,
+          "bp": "128/81"
+        },
+        "assessment": "Confirmed Pertussis (whooping cough). ICD-10 A37.9. SCT 27836007.",
+        "plan": "Azithromycin 500mg x 1 day, then 250mg x 4 days. Family contacts to receive prophylaxis.",
+        "icd10_codes": [
+          "A37.9"
+        ],
+        "snomed_codes": [
+          "27836007"
+        ],
+        "disease_id": "pertussis",
+        "is_hospitalized": true
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A37.9",
+        "snomed": "27836007",
+        "name": "Pertussis (whooping cough)",
+        "onset_date": "2026-03-16",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "pertussis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "B. pertussis PCR",
+        "loinc": "23826-1",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "vaccination_status": "Unknown \u2014 adult Tdap >10 years ago",
+      "household_contacts": 5,
+      "child_contacts_under_5": true
+    },
+    "contacts": 4,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-c0e9ab30",
+    "name": {
+      "family": "Bailey",
+      "given": [
+        "Ana"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1954-03-14",
+    "age": 72,
+    "address": {
+      "line": [
+        "8956 E Speedway Blvd"
+      ],
+      "city": "Tucson",
+      "state": "AZ",
+      "postalCode": "85710",
+      "county": "Pima"
+    },
+    "phone": "(520) 555-4872",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-610461e3",
+        "date": "2026-04-08",
+        "facility_id": "honor",
+        "facility_name": "HonorHealth Scottsdale",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "72-year-old woman from Tucson presenting with progressive cough x 2 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 100.1,
+          "hr": 110,
+          "rr": 22,
+          "spo2": 96,
+          "bp": "119/85"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-03-26",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Office worker",
+      "recent_travel": "No"
+    },
+    "contacts": 0,
+    "occupation": "Office worker"
+  },
+  {
+    "patient_id": "P-fa34d2e8",
+    "name": {
+      "family": "Bell",
+      "given": [
+        "Linda"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1967-04-11",
+    "age": 59,
+    "address": {
+      "line": [
+        "6141 N Central Ave"
+      ],
+      "city": "Tucson",
+      "state": "AZ",
+      "postalCode": "85710",
+      "county": "Pima"
+    },
+    "phone": "(520) 555-2479",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-bd29ede9",
+        "date": "2026-03-31",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Dysuria, urethral discharge",
+        "hpi": "59-year-old woman with dysuria and purulent urethral discharge x 5 days. Multiple recent sexual partners. Requesting STI screen.",
+        "exam": {
+          "temp_f": 101.5,
+          "hr": 105,
+          "rr": 17,
+          "spo2": 95,
+          "bp": "129/87"
+        },
+        "assessment": "Confirmed Gonorrhea. ICD-10 A54.9. SCT 15628003.",
+        "plan": "Ceftriaxone 500mg IM single dose. Test for chlamydia coinfection. Partner notification.",
+        "icd10_codes": [
+          "A54.9"
+        ],
+        "snomed_codes": [
+          "15628003"
+        ],
+        "disease_id": "gonorrhea",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A54.9",
+        "snomed": "15628003",
+        "name": "Gonorrhea",
+        "onset_date": "2026-03-21",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "gonorrhea"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "GC NAAT",
+        "loinc": "21416-3",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "n_sexual_partners_3mo": 3,
+      "condom_use": "Sometimes"
+    },
+    "contacts": 3,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-6fac1673",
+    "name": {
+      "family": "Tsosie",
+      "given": [
+        "Shilah"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1959-07-20",
+    "age": 66,
+    "address": {
+      "line": [
+        "1280 W Ina Rd"
+      ],
+      "city": "Yuma",
+      "state": "AZ",
+      "postalCode": "85364",
+      "county": "Yuma"
+    },
+    "phone": "(602) 555-1307",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-b5a1b949",
+        "date": "2026-04-04",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Fever, rash, unvaccinated",
+        "hpi": "66-year-old man with fever, cough, coryza, conjunctivitis x 3 days, now with maculopapular rash starting at hairline. Unvaccinated. Recent international travel.",
+        "exam": {
+          "temp_f": 100.5,
+          "hr": 95,
+          "rr": 17,
+          "spo2": 99,
+          "bp": "129/86"
+        },
+        "assessment": "Confirmed Measles (rubeola). ICD-10 B05.9. SCT 14189004.",
+        "plan": "Supportive care, vitamin A. Airborne isolation. Contact tracing critical.",
+        "icd10_codes": [
+          "B05.9"
+        ],
+        "snomed_codes": [
+          "14189004"
+        ],
+        "disease_id": "measles",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B05.9",
+        "snomed": "14189004",
+        "name": "Measles (rubeola)",
+        "onset_date": "2026-03-22",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "measles"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Measles IgM",
+        "loinc": "22501-1",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Measles PCR",
+        "loinc": "48508-6",
+        "value": "Detected",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "vaccination_status": "Unvaccinated",
+      "recent_travel": "International",
+      "school_or_daycare_contact": true
+    },
+    "contacts": 2,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-2defe193",
+    "name": {
+      "family": "Flores",
+      "given": [
+        "James"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1956-07-01",
+    "age": 69,
+    "address": {
+      "line": [
+        "1747 S Stone Ave"
+      ],
+      "city": "Chandler",
+      "state": "AZ",
+      "postalCode": "85225",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-5952",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-4ac9778d",
+        "date": "2026-04-06",
+        "facility_id": "tmc",
+        "facility_name": "Tucson Medical Center",
+        "type": "outpatient",
+        "chief_complaint": "Persistent paroxysmal cough",
+        "hpi": "69-year-old man with paroxysmal cough x 2 weeks, post-tussive emesis, characteristic 'whoop'. Unvaccinated child sibling at home. Mother also has cough.",
+        "exam": {
+          "temp_f": 101.4,
+          "hr": 88,
+          "rr": 22,
+          "spo2": 93,
+          "bp": "128/81"
+        },
+        "assessment": "Confirmed Pertussis (whooping cough). ICD-10 A37.9. SCT 27836007.",
+        "plan": "Azithromycin 500mg x 1 day, then 250mg x 4 days. Family contacts to receive prophylaxis.",
+        "icd10_codes": [
+          "A37.9"
+        ],
+        "snomed_codes": [
+          "27836007"
+        ],
+        "disease_id": "pertussis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A37.9",
+        "snomed": "27836007",
+        "name": "Pertussis (whooping cough)",
+        "onset_date": "2026-03-28",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "pertussis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "B. pertussis PCR",
+        "loinc": "23826-1",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "vaccination_status": "Unknown \u2014 adult Tdap >10 years ago",
+      "household_contacts": 2,
+      "child_contacts_under_5": true
+    },
+    "contacts": 1,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-16419f82",
+    "name": {
+      "family": "Benally",
+      "given": [
+        "Maria"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1992-12-30",
+    "age": 33,
+    "address": {
+      "line": [
+        "1779 W Glendale Ave"
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85015",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-7912",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-32e70629",
+        "date": "2026-04-07",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "33-year-old woman from Phoenix presenting with progressive cough x 6 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 100.6,
+          "hr": 93,
+          "rr": 22,
+          "spo2": 99,
+          "bp": "110/77"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-03-25",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Office worker",
+      "recent_travel": "Visited Phoenix metro"
+    },
+    "contacts": 0,
+    "occupation": "Office worker"
+  },
+  {
+    "patient_id": "P-79c773a0",
+    "name": {
+      "family": "Johnson",
+      "given": [
+        "Miguel"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "2023-07-09",
+    "age": 2,
+    "address": {
+      "line": [
+        "6766 W Glendale Ave"
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85032",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-8822",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-e86e8e63",
+        "date": "2026-04-05",
+        "facility_id": "banner-mesa",
+        "facility_name": "Banner Health Mesa",
+        "type": "outpatient",
+        "chief_complaint": "Annual physical",
+        "hpi": "Patient is in their usual state of health. Routine follow-up visit.",
+        "exam": {
+          "temp_f": 98.7,
+          "hr": 67,
+          "rr": 16,
+          "spo2": 96,
+          "bp": "115/76"
+        },
+        "assessment": "Routine. No acute issues.",
+        "plan": "Continue current regimen. Return PRN.",
+        "icd10_codes": []
+      }
+    ],
+    "active_problems": [],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 0,
+    "occupation": "Various"
+  },
+  {
+    "patient_id": "P-79e13cea",
+    "name": {
+      "family": "Miller",
+      "given": [
+        "Dezbah"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "2013-12-16",
+    "age": 12,
+    "address": {
+      "line": [
+        "8104 E Grant Rd"
+      ],
+      "city": "Sierra Vista",
+      "state": "AZ",
+      "postalCode": "85635",
+      "county": "Cochise"
+    },
+    "phone": "(602) 555-9041",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-4e6384bb",
+        "date": "2026-04-05",
+        "facility_id": "banner-phx",
+        "facility_name": "Banner Health Phoenix",
+        "type": "outpatient",
+        "chief_complaint": "Persistent paroxysmal cough",
+        "hpi": "12-year-old woman with paroxysmal cough x 2 weeks, post-tussive emesis, characteristic 'whoop'. Unvaccinated child sibling at home. Mother also has cough.",
+        "exam": {
+          "temp_f": 100.8,
+          "hr": 96,
+          "rr": 19,
+          "spo2": 98,
+          "bp": "127/82"
+        },
+        "assessment": "Confirmed Pertussis (whooping cough). ICD-10 A37.9. SCT 27836007.",
+        "plan": "Azithromycin 500mg x 1 day, then 250mg x 4 days. Family contacts to receive prophylaxis.",
+        "icd10_codes": [
+          "A37.9"
+        ],
+        "snomed_codes": [
+          "27836007"
+        ],
+        "disease_id": "pertussis",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A37.9",
+        "snomed": "27836007",
+        "name": "Pertussis (whooping cough)",
+        "onset_date": "2026-03-29",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "pertussis"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "B. pertussis PCR",
+        "loinc": "23826-1",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "vaccination_status": "Unknown \u2014 adult Tdap >10 years ago",
+      "household_contacts": 3,
+      "child_contacts_under_5": true
+    },
+    "contacts": 1,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-8ccc9cea",
+    "name": {
+      "family": "Bailey",
+      "given": [
+        "Ana"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "2001-09-06",
+    "age": 24,
+    "address": {
+      "line": [
+        "5336 W Glendale Ave"
+      ],
+      "city": "Tucson",
+      "state": "AZ",
+      "postalCode": "85745",
+      "county": "Pima"
+    },
+    "phone": "(520) 555-9882",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-a3404f08",
+        "date": "2026-04-09",
+        "facility_id": "naz",
+        "facility_name": "Northern AZ Healthcare",
+        "type": "outpatient",
+        "chief_complaint": "Disease workup",
+        "hpi": "24-year-old woman with confirmed Typhoid fever.",
+        "exam": {
+          "temp_f": 100.7,
+          "hr": 88,
+          "rr": 17,
+          "spo2": 99,
+          "bp": "114/79"
+        },
+        "assessment": "Confirmed Typhoid fever. ICD-10 A01.0. SCT 4834000.",
+        "plan": "Per protocol.",
+        "icd10_codes": [
+          "A01.0"
+        ],
+        "snomed_codes": [
+          "4834000"
+        ],
+        "disease_id": "typhoid",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A01.0",
+        "snomed": "4834000",
+        "name": "Typhoid fever",
+        "onset_date": "2026-03-26",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "typhoid"
+      }
+    ],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 4,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-ef3a6f27",
+    "name": {
+      "family": "Nez",
+      "given": [
+        "Linda"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1997-05-04",
+    "age": 28,
+    "address": {
+      "line": [
+        "5294 N Oracle Rd"
+      ],
+      "city": "Whiteriver",
+      "state": "AZ",
+      "postalCode": "85941",
+      "county": "Apache"
+    },
+    "phone": "(602) 555-5480",
+    "tribal_residency": "tribal_apache",
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-d1812f77",
+        "date": "2026-03-28",
+        "facility_id": "honor",
+        "facility_name": "HonorHealth Scottsdale",
+        "type": "outpatient",
+        "chief_complaint": "BP follow-up",
+        "hpi": "Patient is in their usual state of health. Routine follow-up visit.",
+        "exam": {
+          "temp_f": 99.0,
+          "hr": 85,
+          "rr": 13,
+          "spo2": 98,
+          "bp": "111/74"
+        },
+        "assessment": "Routine. No acute issues.",
+        "plan": "Continue current regimen. Return PRN.",
+        "icd10_codes": []
+      }
+    ],
+    "active_problems": [],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 0,
+    "occupation": "Various"
+  },
+  {
+    "patient_id": "P-402adf9c",
+    "name": {
+      "family": "Mendez",
+      "given": [
+        "Rosa"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "2005-06-19",
+    "age": 20,
+    "address": {
+      "line": [
+        "4642 W Camelback Rd"
+      ],
+      "city": "Tucson",
+      "state": "AZ",
+      "postalCode": "85716",
+      "county": "Pima"
+    },
+    "phone": "(520) 555-3858",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-3ce915e7",
+        "date": "2026-04-10",
+        "facility_id": "tmc",
+        "facility_name": "Tucson Medical Center",
+        "type": "outpatient",
+        "chief_complaint": "Fever, headache, rash",
+        "hpi": "20-year-old woman with fever, headache, fatigue, faint maculopapular rash. Lives in Pinal County (current mosquito anomaly). No recent travel.",
+        "exam": {
+          "temp_f": 99.9,
+          "hr": 86,
+          "rr": 17,
+          "spo2": 98,
+          "bp": "123/88"
+        },
+        "assessment": "Confirmed West Nile virus disease. ICD-10 A92.3. SCT 417093003.",
+        "plan": "Supportive care. Most cases self-limited. Monitor for neuroinvasive disease.",
+        "icd10_codes": [
+          "A92.3"
+        ],
+        "snomed_codes": [
+          "417093003"
+        ],
+        "disease_id": "west_nile",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A92.3",
+        "snomed": "417093003",
+        "name": "West Nile virus disease",
+        "onset_date": "2026-04-07",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "west_nile"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "WNV IgM (CSF)",
+        "loinc": "31739-3",
+        "value": "Positive",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "mosquito_exposure": "Yes",
+      "outdoor_activity_evening": true,
+      "geographic_area": "Pima County"
+    },
+    "contacts": 0,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-bbf483ce",
+    "name": {
+      "family": "Bell",
+      "given": [
+        "Hosteen"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1997-10-30",
+    "age": 28,
+    "address": {
+      "line": [
+        "2453 E Broadway Blvd"
+      ],
+      "city": "Sells",
+      "state": "AZ",
+      "postalCode": "85634",
+      "county": "Pima"
+    },
+    "phone": "(520) 555-6658",
+    "tribal_residency": "tribal_tohono_oodham",
+    "race": "asian",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-3de28859",
+        "date": "2026-04-03",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "outpatient",
+        "chief_complaint": "Diabetes follow-up",
+        "hpi": "Patient is in their usual state of health. Routine follow-up visit.",
+        "exam": {
+          "temp_f": 98.3,
+          "hr": 74,
+          "rr": 13,
+          "spo2": 97,
+          "bp": "113/70"
+        },
+        "assessment": "Routine. No acute issues.",
+        "plan": "Continue current regimen. Return PRN.",
+        "icd10_codes": []
+      }
+    ],
+    "active_problems": [],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 0,
+    "occupation": "Various"
+  },
+  {
+    "patient_id": "P-fb16e5db",
+    "name": {
+      "family": "Garcia-Lopez",
+      "given": [
+        "Jose"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "1963-05-05",
+    "age": 62,
+    "address": {
+      "line": [
+        "6425 W Glendale Ave"
+      ],
+      "city": "Prescott",
+      "state": "AZ",
+      "postalCode": "86301",
+      "county": "Yavapai"
+    },
+    "phone": "(602) 555-3492",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-dfcaf0b7",
+        "date": "2026-03-29",
+        "facility_id": "ihs-whiteriver",
+        "facility_name": "IHS Whiteriver Service Unit",
+        "type": "inpatient",
+        "chief_complaint": "Fever, rash, recent tick exposure",
+        "hpi": "62-year-old man with fever, headache, myalgias x 5 days. Maculopapular rash on wrists and ankles, now spreading to trunk. Recent hiking in eastern AZ. Tick exposure reported.",
+        "exam": {
+          "temp_f": 103.3,
+          "hr": 100,
+          "rr": 29,
+          "spo2": 84,
+          "bp": "123/76"
+        },
+        "assessment": "Confirmed Spotted fever rickettsiosis (e.g., Rocky Mountain spotted fever). ICD-10 A77.0. SCT 186772009.",
+        "plan": "Doxycycline 100mg BID x 7-14 days. Continue until afebrile x 3 days.",
+        "icd10_codes": [
+          "A77.0"
+        ],
+        "snomed_codes": [
+          "186772009"
+        ],
+        "disease_id": "rmsf",
+        "is_hospitalized": true
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "A77.0",
+        "snomed": "186772009",
+        "name": "Spotted fever rickettsiosis (e.g., Rocky Mountain spotted fever)",
+        "onset_date": "2026-03-26",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "rmsf"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Rickettsia rickettsii IgG",
+        "loinc": "31093-5",
+        "value": "1:128",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "tick_exposure": "Yes \u2014 eastern AZ hiking",
+      "outdoor_activity": true,
+      "geographic_area": "Apache-Sitgreaves National Forest"
+    },
+    "contacts": 4,
+    "occupation": "Not documented"
+  },
+  {
+    "patient_id": "P-eedaa802",
+    "name": {
+      "family": "Bailey",
+      "given": [
+        "Karen"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1940-12-26",
+    "age": 85,
+    "address": {
+      "line": [
+        "3605 S Stone Ave"
+      ],
+      "city": "Whiteriver",
+      "state": "AZ",
+      "postalCode": "85941",
+      "county": "Apache"
+    },
+    "phone": "(602) 555-5450",
+    "tribal_residency": "tribal_apache",
+    "race": "white",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-e7ba26ac",
+        "date": "2026-03-27",
+        "facility_id": "banner-phx",
+        "facility_name": "Banner Health Phoenix",
+        "type": "outpatient",
+        "chief_complaint": "Med refill",
+        "hpi": "Patient is in their usual state of health. Routine follow-up visit.",
+        "exam": {
+          "temp_f": 98.7,
+          "hr": 61,
+          "rr": 12,
+          "spo2": 99,
+          "bp": "120/81"
+        },
+        "assessment": "Routine. No acute issues.",
+        "plan": "Continue current regimen. Return PRN.",
+        "icd10_codes": []
+      }
+    ],
+    "active_problems": [],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 0,
+    "occupation": "Various"
+  },
+  {
+    "patient_id": "P-366eb16f",
+    "name": {
+      "family": "Garcia-Lopez",
+      "given": [
+        "Sofia"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "1972-12-12",
+    "age": 53,
+    "address": {
+      "line": [
+        "3556 S Park Ave"
+      ],
+      "city": "Tucson",
+      "state": "AZ",
+      "postalCode": "85745",
+      "county": "Pima"
+    },
+    "phone": "(520) 555-9179",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-beb79919",
+        "date": "2026-03-31",
+        "facility_id": "banner-phx",
+        "facility_name": "Banner Health Phoenix",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "53-year-old woman from Tucson presenting with progressive cough x 6 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 101.3,
+          "hr": 98,
+          "rr": 20,
+          "spo2": 96,
+          "bp": "121/79"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-03-27",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Office worker",
+      "recent_travel": "No"
+    },
+    "contacts": 4,
+    "occupation": "Office worker"
+  },
+  {
+    "patient_id": "P-e6697833",
+    "name": {
+      "family": "Reed",
+      "given": [
+        "Karen"
+      ]
+    },
+    "sex": "female",
+    "birthDate": "2015-05-13",
+    "age": 10,
+    "address": {
+      "line": [
+        "5243 W Glendale Ave"
+      ],
+      "city": "Flagstaff",
+      "state": "AZ",
+      "postalCode": "86001",
+      "county": "Coconino"
+    },
+    "phone": "(602) 555-5920",
+    "tribal_residency": null,
+    "race": "hispanic",
+    "ethnicity": "non_hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-2095eef6",
+        "date": "2026-04-04",
+        "facility_id": "honor",
+        "facility_name": "HonorHealth Scottsdale",
+        "type": "outpatient",
+        "chief_complaint": "Cough, fever, fatigue x weeks",
+        "hpi": "10-year-old woman from Flagstaff presenting with progressive cough x 3 weeks, low-grade fever, fatigue, night sweats. Reports significant exposure to wind-blown soil dust during recent yard work. No skin rash. Lives in cocci-endemic region.",
+        "exam": {
+          "temp_f": 101.8,
+          "hr": 106,
+          "rr": 21,
+          "spo2": 94,
+          "bp": "129/81"
+        },
+        "assessment": "Confirmed Coccidioidomycosis (Valley Fever). ICD-10 B38.9. SCT 5294002.",
+        "plan": "Fluconazole 400mg daily x 3-6 months. Repeat serology in 4 weeks. ID consult if disseminated.",
+        "icd10_codes": [
+          "B38.9"
+        ],
+        "snomed_codes": [
+          "5294002"
+        ],
+        "disease_id": "valley_fever",
+        "is_hospitalized": false
+      }
+    ],
+    "active_problems": [
+      {
+        "icd10": "B38.9",
+        "snomed": "5294002",
+        "name": "Coccidioidomycosis (Valley Fever)",
+        "onset_date": "2026-03-27",
+        "status": "active",
+        "is_reportable": true,
+        "disease_id": "valley_fever"
+      }
+    ],
+    "medications": [],
+    "lab_results": [
+      {
+        "name": "Coccidioides IgM",
+        "loinc": "31718-7",
+        "value": "Positive",
+        "abnormal": true
+      },
+      {
+        "name": "Coccidioides IgG",
+        "loinc": "31708-8",
+        "value": "Positive 1:64",
+        "abnormal": true
+      }
+    ],
+    "exposure_history": {
+      "soil_dust_exposure": true,
+      "occupation": "Construction",
+      "recent_travel": "Visited Phoenix metro"
+    },
+    "contacts": 5,
+    "occupation": "Construction"
+  },
+  {
+    "patient_id": "P-8ece1128",
+    "name": {
+      "family": "Diaz",
+      "given": [
+        "Bidziil"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "2009-02-13",
+    "age": 17,
+    "address": {
+      "line": [
+        "6553 E Broadway Blvd"
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85003",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-6990",
+    "tribal_residency": null,
+    "race": "amerindian",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-09f64405",
+        "date": "2026-03-29",
+        "facility_id": "honor",
+        "facility_name": "HonorHealth Scottsdale",
+        "type": "outpatient",
+        "chief_complaint": "Med refill",
+        "hpi": "Patient is in their usual state of health. Routine follow-up visit.",
+        "exam": {
+          "temp_f": 98.8,
+          "hr": 85,
+          "rr": 15,
+          "spo2": 99,
+          "bp": "114/79"
+        },
+        "assessment": "Routine. No acute issues.",
+        "plan": "Continue current regimen. Return PRN.",
+        "icd10_codes": []
+      }
+    ],
+    "active_problems": [],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 0,
+    "occupation": "Various"
+  },
+  {
+    "patient_id": "P-8685abaa",
+    "name": {
+      "family": "Hernandez",
+      "given": [
+        "Anthony"
+      ]
+    },
+    "sex": "male",
+    "birthDate": "2006-07-29",
+    "age": 19,
+    "address": {
+      "line": [
+        "9289 E Broadway Blvd"
+      ],
+      "city": "Mesa",
+      "state": "AZ",
+      "postalCode": "85201",
+      "county": "Maricopa"
+    },
+    "phone": "(602) 555-7173",
+    "tribal_residency": null,
+    "race": "white",
+    "ethnicity": "hispanic",
+    "encounters": [
+      {
+        "encounter_id": "E-c5a11f5c",
+        "date": "2026-03-28",
+        "facility_id": "banner-mesa",
+        "facility_name": "Banner Health Mesa",
+        "type": "outpatient",
+        "chief_complaint": "BP follow-up",
+        "hpi": "Patient is in their usual state of health. Routine follow-up visit.",
+        "exam": {
+          "temp_f": 98.7,
+          "hr": 66,
+          "rr": 13,
+          "spo2": 98,
+          "bp": "127/74"
+        },
+        "assessment": "Routine. No acute issues.",
+        "plan": "Continue current regimen. Return PRN.",
+        "icd10_codes": []
+      }
+    ],
+    "active_problems": [],
+    "medications": [],
+    "lab_results": [],
+    "exposure_history": {},
+    "contacts": 0,
+    "occupation": "Various"
+  }
+]

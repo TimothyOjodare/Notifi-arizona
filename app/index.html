@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NotifiAZ — Reportable Disease Reporting</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="na-header">
+    <div class="na-brand">
+        <div class="na-mark">📋</div>
+        <div>
+            <h1 class="na-title">NotifiAZ</h1>
+            <p class="na-tag">Reportable disease reporting · 4 minutes · multi-agency · bidirectional</p>
+        </div>
+    </div>
+    <nav class="na-modes" id="na-modes">
+        <!-- mode buttons inserted by app.js -->
+    </nav>
+    <div class="na-session" id="na-session">
+        <!-- session strip inserted by app.js -->
+    </div>
+    <div class="na-disc">⚠ SYNTHETIC · NO PHI</div>
+</header>
+
+<main class="na-main">
+
+    <!-- ===================================================================
+         Login surface
+    ==================================================================== -->
+    <section id="view-login" class="view active">
+        <div class="login-card">
+            <h2>Sign in to NotifiAZ</h2>
+            <p class="login-blurb">Pick a role to begin. Each demo identity is a synthetic provider in the dataset.</p>
+
+            <div class="role-grid">
+                <div class="role-card" data-role="clinician">
+                    <h3>👩‍⚕️ Clinician</h3>
+                    <p>I see human patients and need to file reportable-disease reports.</p>
+                </div>
+                <div class="role-card" data-role="veterinarian">
+                    <h3>🐕 Veterinarian</h3>
+                    <p>I see animals and need to file animal-disease reports (with zoonotic cross-species bridge).</p>
+                </div>
+                <div class="role-card" data-role="investigator">
+                    <h3>🔍 Agency investigator</h3>
+                    <p>I work at ADHS, a county health department, CDC, tribal health, APHIS, AZ ADA, or AZ G&amp;F. I receive and act on reports.</p>
+                </div>
+            </div>
+
+            <div id="identity-grid" class="identity-grid"></div>
+        </div>
+    </section>
+
+    <!-- ===================================================================
+         EHR — clinician/vet patient list + chart
+    ==================================================================== -->
+    <section id="view-ehr" class="view">
+        <div class="ehr-shell">
+            <aside class="ehr-list" id="ehr-list">
+                <!-- patient/animal list -->
+            </aside>
+            <div class="ehr-chart" id="ehr-chart">
+                <p class="empty-state">Select a patient from the list to open chart.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================================
+         Reporter — fill report from EHR or standalone
+    ==================================================================== -->
+    <section id="view-reporter" class="view">
+        <div class="reporter-shell">
+            <div class="reporter-main" id="reporter-main">
+                <!-- form populated by reporter.js -->
+            </div>
+            <aside class="reporter-side" id="reporter-side">
+                <!-- "my filed reports" panel -->
+            </aside>
+        </div>
+    </section>
+
+    <!-- ===================================================================
+         Investigator console
+    ==================================================================== -->
+    <section id="view-investigator" class="view">
+        <div class="inv-shell">
+            <div class="inv-inbox" id="inv-inbox"></div>
+            <div class="inv-detail" id="inv-detail">
+                <p class="empty-state">Select a report from the inbox to view its details and act.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================================
+         Insights — EDA, predictor metrics, RAG (D3.js charts)
+    ==================================================================== -->
+    <section id="view-insights" class="view"></section>
+
+</main>
+
+<!-- ===================================================================
+     Modal host
+==================================================================== -->
+<div id="na-modal" hidden></div>
+
+<!-- D3 (bundled locally — no CDN dependency for the demo) -->
+<script src="lib/d3.min.js"></script>
+
+<script src="shared/data.js"></script>
+<script src="shared/store.js"></script>
+<script src="shared/auth.js"></script>
+<script src="shared/predictor_data.js"></script>
+<script src="shared/rag_data.js"></script>
+<script src="reporter/messages/messages.js"></script>
+<script src="insights/predictor.js"></script>
+<script src="insights/rag.js"></script>
+<script src="insights/insights.js"></script>
+<script src="ehr/ehr.js"></script>
+<script src="reporter/reporter.js"></script>
+<script src="investigator/investigator.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
